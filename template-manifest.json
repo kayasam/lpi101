@@ -17,7 +17,7 @@
     "quartz/styles/custom.scss": "dbb93a37c05988a16ba3841e070f286835621347147019d41f67b0ecd08c9e93",
     "quartz/styles/explorer-pc.scss": "b389ef5dfb9f093fd8ad9538825f88f40a4c7640f7fd350ef6eedd99c921c6ac",
     "quartz/styles/pc.scss": "18a78cf027d965f4e5a6470dd1740472bdf8a90d76af7fc8887a5b5fa6b2da85",
-    "quartz/styles/site-refresh.scss": "712c2dc60616d2eeb8165eb0718cf38b33245ed5ee8d3e705f5e246ba6f2d500",
+    "quartz/styles/site-refresh.scss": "9bbf1fcc65397674316aa6b269fb5061ff4e36d4544cdd4bf289de9da4a0bd91",
     "quartz/styles/support-viewer.scss": "0b925fa5970135c8b79c8791ab2e008c9759c8f9f2468b7bfce2e7a4c6249dc2",
     "quartz/styles/syntax.scss": "f76569760f857fe72c23d74c89e8ab83bc3f0db24b453a4d15842a1435bfb66a",
     "quartz/styles/variables.scss": "365594b1baf3194f01a4c0bd6763dd5f0f10703346b7207b3613ccc7669f9436"
@@ -28,6 +28,11 @@
       "date": "2026-10-22",
       "file": "quartz/styles/site-refresh.scss",
       "reason": "Tux dans le parent LPI 101, demandé par Samuel ; contrôle clair/sombre et mobile."
+    },
+    {
+      "date": "2026-10-22",
+      "file": "quartz/styles/site-refresh.scss",
+      "reason": "Conserver les dimensions intrinsèques des images du cours : content-visibility auto réduisait les SVG à 0 × 0. Affichage contrôlé sur ordinateur et mobile."
     }
   ]
 }

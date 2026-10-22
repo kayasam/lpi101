@@ -133,6 +133,7 @@ def local_image(src):
 
 def image_flowables(node, style):
     path = local_image(node['src'])
+    max_height = 560 if path.suffix.lower() == '.svg' and 'REPÈRE VISUEL' in path.read_text(encoding='utf-8') else 300
     # Excalidraw embeds SVG images that svglib cannot resolve from data URLs.
     # Use the matching rendered PNG in print, keeping SVG for the website.
     if path.suffix.lower() == '.svg' and path.with_suffix('.png').is_file():
@@ -143,13 +144,13 @@ def image_flowables(node, style):
         svg = re.sub(r'font-family:([^;}]+)', lambda m: 'font-family:' + ('CourseMono' if re.search(r'Consolas|mono', m[1], re.I) else 'Course'), svg)
         image = svg2rlg(io.BytesIO(svg.encode('utf-8')))
         assert image and image.width and image.height, path
-        scale = min(WIDTH / image.width, 300 / image.height)
+        scale = min(WIDTH / image.width, max_height / image.height)
         image.scale(scale, scale)
         image.width *= scale
         image.height *= scale
     else:
         image = Image(str(path))
-        scale = min(WIDTH / image.imageWidth, 300 / image.imageHeight)
+        scale = min(WIDTH / image.imageWidth, max_height / image.imageHeight)
         image.drawWidth = image.imageWidth * scale
         image.drawHeight = image.imageHeight * scale
     return [Spacer(1, 6), image, Spacer(1, 5), Paragraph(html.escape(node.get('alt', '')), style['caption'])]

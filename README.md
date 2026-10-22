@@ -4,7 +4,7 @@ Site public : https://kayasam.github.io/lpi101/
 
 Un dossier par chapitre (`cours/01-comprendre-gnu-linux/01-comprendre-gnu-linux.md`), avec les TP dans le sous-dossier `tp/` du chapitre de déclenchement. La même organisation est conservée dans les ZIP Obsidian.
 
-39 chapitres, 9 compléments et 14 TP, dans la présentation Quartz validée pour Linux initiation. Le logo et le favicon utilisent Tux.
+39 chapitres, 9 compléments et 14 TP, dans la présentation Quartz validée pour Linux initiation. Le logo et le favicon utilisent Tux. Neuf schémas SVG sont intégrés aux chapitres 03, 08, 12, 15, 20, 22, 26, 27 et 35. Leurs rendus PNG pour le PDF sont produits par `scripts/render-course-diagrams.mjs` après l’import du coffre.
 
 ## Actualiser le cours
 

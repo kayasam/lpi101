@@ -5,6 +5,8 @@ Push-Location $PSScriptRoot
 try {
   & python scripts/import-vault.py
   if ($LASTEXITCODE) { throw 'Import du coffre échoué.' }
+  & node scripts/render-course-diagrams.mjs
+  if ($LASTEXITCODE) { throw 'Rendu des schémas échoué.' }
   & python scripts/prepare-site.py
   if ($LASTEXITCODE) { throw 'Préparation échouée.' }
   & node quartz/bootstrap-cli.mjs build

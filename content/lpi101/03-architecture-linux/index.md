@@ -46,7 +46,7 @@ Comprendre cette architecture permet de mieux saisir le rôle de chaque composan
 5. **L’espace utilisateur (User Space)**
 
    * C’est la partie visible pour l’utilisateur : commandes, applications, interfaces graphiques.
-   * Elle repose sur les bibliothèques et services fournis par le noyau.
+   * Elle utilise des bibliothèques et communique avec le noyau par des appels système.
 
 ---
 
@@ -65,14 +65,11 @@ Anciennement, ce rôle était assuré par **SysVinit**.
 
 ## Lire le système comme un ensemble
 
-```text
-Utilisateur → terminal / applications → bibliothèques → noyau → matériel
-                         services ↗
-```
+![Les couches de Linux : programmes et bibliothèques dans l’espace utilisateur, noyau et pilotes, puis matériel.](https://kayasam.github.io/lpi101/assets/course-media/b7d29b99d675ff4f.svg)
 
 Le terminal affiche une session ; le **shell** interprète les commandes. Bash est un shell courant. Un pilote peut être intégré au noyau ou fourni comme module chargeable.
 
-Schéma du cours : ![DR01.BIOS-GRUB-ARCHI](https://kayasam.github.io/lpi101/assets/course-media/dr01-bios-grub-archi.svg)
+Le noyau est le passage entre les programmes et le matériel ; les services font partie de l’espace utilisateur.
 
 ## À retenir
 > [!info]

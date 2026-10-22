@@ -372,3 +372,10 @@ html[saved-theme] body .explorer-content .folder-container.is-track-root[data-fo
   }
   > div { grid-column: 2; }
 }
+
+/* Keep the intrinsic dimensions of course SVGs when they enter the viewport. */
+html[saved-theme] body article img[src*="/assets/course-media/"] {
+  content-visibility: visible;
+  max-width: 100%;
+  height: auto;
+}

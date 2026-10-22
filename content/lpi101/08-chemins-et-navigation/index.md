@@ -18,6 +18,8 @@ title: "08. Se déplacer et comprendre les chemins"
 
 Sous Linux, tout est organisé dans une **arborescence unique** partant de la racine `/`.
 
+![Chemin absolu et chemin relatif vers le même répertoire.](https://kayasam.github.io/lpi101/assets/course-media/b02d089e0fd34249.svg)
+
 Les principales commandes de navigation sont :
 
 ## `pwd` — afficher le répertoire courant

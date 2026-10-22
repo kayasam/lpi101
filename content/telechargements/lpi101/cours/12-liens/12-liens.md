@@ -37,12 +37,7 @@ ls -l raccourci.txt
 readlink raccourci.txt
 ```
 
-```text
-original.txt ──┐
-              ├── inode commun → contenu
-physique.txt ─┘
-raccourci.txt → chemin « original.txt »
-```
+![Liens physiques et symboliques avant et après suppression du nom original.](https://kayasam.github.io/lpi101/assets/course-media/bf9204a1886d87c5.svg)
 
 Une cible relative est interprétée depuis le dossier contenant le lien symbolique, pas depuis le dossier courant de l’utilisateur.
 

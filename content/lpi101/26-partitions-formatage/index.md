@@ -21,7 +21,7 @@ Chaque disque ou partition doit être **formaté** avec un système de fichiers 
 Cette section explique les outils permettant de visualiser, créer, monter et gérer ces systèmes de fichiers.
 
 ---
-![Schema-Partition-formatage-montage](https://kayasam.github.io/lpi101/assets/course-media/schema-partition-formatage-montage.svg)
+![Les trois niveaux du stockage : disque, partitions et système de fichiers.](https://kayasam.github.io/lpi101/assets/course-media/2e6294cef35ed354.svg)
 
 ## Outils de gestion des disques
 

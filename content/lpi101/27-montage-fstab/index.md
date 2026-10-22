@@ -20,6 +20,10 @@ title: "27. Monter un système de fichiers et utiliser fstab"
 
 Un **système de fichiers** doit être monté dans un répertoire pour être accessible.
 
+![Un volume ext4 sur /dev/sdb1 devient accessible sous /mnt après son montage. Les fichiers restent sur le volume.](https://kayasam.github.io/lpi101/assets/course-media/3f58013fb2e518fa.svg)
+
+Le répertoire `/mnt` sert ici de porte d’entrée vers les fichiers du volume : monter ne déplace pas les données.
+
 ## `mount` — monter un système de fichiers
 
 ```bash
