@@ -4,7 +4,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/01-comprendre-gnu-linux/",
       "label": "Cours",
-      "chapterTitle": "01 — Comprendre GNU/Linux et le logiciel libre",
+      "chapterTitle": "01. Comprendre GNU/Linux et le logiciel libre",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -14,7 +14,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/02-distributions/",
       "label": "Cours",
-      "chapterTitle": "02 — Choisir et reconnaître une distribution Linux",
+      "chapterTitle": "02. Choisir et reconnaître une distribution Linux",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -24,7 +24,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/03-architecture-linux/",
       "label": "Cours",
-      "chapterTitle": "03 — Comprendre les composants du système",
+      "chapterTitle": "03. Comprendre les composants du système",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -34,7 +34,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/04-preparer-installation/",
       "label": "Cours",
-      "chapterTitle": "04 — Préparer une installation Linux",
+      "chapterTitle": "04. Préparer une installation Linux",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -44,7 +44,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/05-installation-machine-virtuelle/",
       "label": "Cours",
-      "chapterTitle": "05 — Installer Debian dans une machine virtuelle",
+      "chapterTitle": "05. Installer Debian dans une machine virtuelle",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -54,7 +54,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/06-acceder-et-configurer/",
       "label": "Cours",
-      "chapterTitle": "06 — Accéder à la VM et préparer sa session",
+      "chapterTitle": "06. Accéder à la VM et préparer sa session",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -64,7 +64,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/07-premieres-commandes/",
       "label": "Cours",
-      "chapterTitle": "07 — Comprendre et utiliser une commande",
+      "chapterTitle": "07. Comprendre et utiliser une commande",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -74,7 +74,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/08-chemins-et-navigation/",
       "label": "Cours",
-      "chapterTitle": "08 — Se déplacer et comprendre les chemins",
+      "chapterTitle": "08. Se déplacer et comprendre les chemins",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -84,7 +84,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/09-lire-fichiers/",
       "label": "Cours",
-      "chapterTitle": "09 — Lire et identifier des fichiers",
+      "chapterTitle": "09. Lire et identifier des fichiers",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -92,7 +92,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/09-lire-fichiers/tp",
       "label": "TP",
-      "chapterTitle": "09 — Lire et identifier des fichiers",
+      "chapterTitle": "09. Lire et identifier des fichiers",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -102,7 +102,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/10-manipuler-fichiers/",
       "label": "Cours",
-      "chapterTitle": "10 — Créer, copier, déplacer et supprimer",
+      "chapterTitle": "10. Créer, copier, déplacer et supprimer",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -112,7 +112,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/11-jokers-et-recherche/",
       "label": "Cours",
-      "chapterTitle": "11 — Utiliser les jokers et rechercher",
+      "chapterTitle": "11. Utiliser les jokers et rechercher",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -122,7 +122,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/12-liens/",
       "label": "Cours",
-      "chapterTitle": "12 — Comprendre les liens physiques et symboliques",
+      "chapterTitle": "12. Comprendre les liens physiques et symboliques",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -130,7 +130,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/12-liens/tp",
       "label": "TP",
-      "chapterTitle": "12 — Comprendre les liens physiques et symboliques",
+      "chapterTitle": "12. Comprendre les liens physiques et symboliques",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -140,7 +140,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/13-archives-compression/",
       "label": "Cours",
-      "chapterTitle": "13 — Archiver et compresser",
+      "chapterTitle": "13. Archiver et compresser",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -150,7 +150,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/",
       "label": "Cours",
-      "chapterTitle": "14 — Variables, environnement et historique",
+      "chapterTitle": "14. Variables, environnement et historique",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -158,7 +158,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/tp",
       "label": "TP",
-      "chapterTitle": "14 — Variables, environnement et historique",
+      "chapterTitle": "14. Variables, environnement et historique",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -168,7 +168,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/15-flux-redirections/",
       "label": "Cours",
-      "chapterTitle": "15 — Flux, redirections et tubes",
+      "chapterTitle": "15. Flux, redirections et tubes",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -178,7 +178,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/16-filtres-textuels/",
       "label": "Cours",
-      "chapterTitle": "16 — Filtrer et transformer du texte",
+      "chapterTitle": "16. Filtrer et transformer du texte",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -188,7 +188,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/17-expressions-regulieres/",
       "label": "Cours",
-      "chapterTitle": "17 — Rechercher avec les expressions régulières",
+      "chapterTitle": "17. Rechercher avec les expressions régulières",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -196,7 +196,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/17-expressions-regulieres/tp",
       "label": "TP",
-      "chapterTitle": "17 — Rechercher avec les expressions régulières",
+      "chapterTitle": "17. Rechercher avec les expressions régulières",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -206,7 +206,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/",
       "label": "Cours",
-      "chapterTitle": "18 — Modifier un fichier avec nano et vi",
+      "chapterTitle": "18. Modifier un fichier avec nano et vi",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -214,7 +214,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/tp",
       "label": "TP",
-      "chapterTitle": "18 — Modifier un fichier avec nano et vi",
+      "chapterTitle": "18. Modifier un fichier avec nano et vi",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -224,7 +224,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/19-utilisateurs-groupes/",
       "label": "Cours",
-      "chapterTitle": "19 — Utilisateurs, groupes et droits administrateur",
+      "chapterTitle": "19. Utilisateurs, groupes et droits administrateur",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -234,7 +234,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/20-permissions/",
       "label": "Cours",
-      "chapterTitle": "20 — Lire et modifier les permissions",
+      "chapterTitle": "20. Lire et modifier les permissions",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -244,7 +244,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/",
       "label": "Cours",
-      "chapterTitle": "21 — Droits par défaut et bits spéciaux",
+      "chapterTitle": "21. Droits par défaut et bits spéciaux",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -252,7 +252,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/tp",
       "label": "TP",
-      "chapterTitle": "21 — Droits par défaut et bits spéciaux",
+      "chapterTitle": "21. Droits par défaut et bits spéciaux",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -262,7 +262,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/22-processus/",
       "label": "Cours",
-      "chapterTitle": "22 — Observer et contrôler les processus",
+      "chapterTitle": "22. Observer et contrôler les processus",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -272,7 +272,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/23-priorites/",
       "label": "Cours",
-      "chapterTitle": "23 — Comprendre les priorités des processus",
+      "chapterTitle": "23. Comprendre les priorités des processus",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -280,7 +280,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/23-priorites/tp",
       "label": "TP",
-      "chapterTitle": "23 — Comprendre les priorités des processus",
+      "chapterTitle": "23. Comprendre les priorités des processus",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -290,7 +290,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/24-arborescence-fhs/",
       "label": "Cours",
-      "chapterTitle": "24 — Se repérer dans l’arborescence Linux",
+      "chapterTitle": "24. Se repérer dans l’arborescence Linux",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -300,7 +300,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/25-concevoir-partitionnement/",
       "label": "Cours",
-      "chapterTitle": "25 — Concevoir un partitionnement simple",
+      "chapterTitle": "25. Concevoir un partitionnement simple",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -310,7 +310,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/26-partitions-formatage/",
       "label": "Cours",
-      "chapterTitle": "26 — Créer des partitions et des systèmes de fichiers",
+      "chapterTitle": "26. Créer des partitions et des systèmes de fichiers",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -320,7 +320,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/",
       "label": "Cours",
-      "chapterTitle": "27 — Monter un système de fichiers et utiliser fstab",
+      "chapterTitle": "27. Monter un système de fichiers et utiliser fstab",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -330,7 +330,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/28-espace-disque-inodes/",
       "label": "Cours",
-      "chapterTitle": "28 — Mesurer l’espace, la mémoire et les inodes",
+      "chapterTitle": "28. Mesurer l’espace, la mémoire et les inodes",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -340,7 +340,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/",
       "label": "Cours",
-      "chapterTitle": "29 — Vérifier et entretenir les systèmes de fichiers",
+      "chapterTitle": "29. Vérifier et entretenir les systèmes de fichiers",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -348,7 +348,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/tp",
       "label": "TP",
-      "chapterTitle": "29 — Vérifier et entretenir les systèmes de fichiers",
+      "chapterTitle": "29. Vérifier et entretenir les systèmes de fichiers",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -358,7 +358,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/30-paquets-debian/",
       "label": "Cours",
-      "chapterTitle": "30 — Installer et gérer les paquets Debian",
+      "chapterTitle": "30. Installer et gérer les paquets Debian",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -368,7 +368,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/31-paquets-rpm/",
       "label": "Cours",
-      "chapterTitle": "31 — Reconnaître RPM, DNF, YUM et Zypper",
+      "chapterTitle": "31. Reconnaître RPM, DNF, YUM et Zypper",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -378,7 +378,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/",
       "label": "Cours",
-      "chapterTitle": "32 — Comprendre les bibliothèques partagées",
+      "chapterTitle": "32. Comprendre les bibliothèques partagées",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -386,7 +386,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/tp",
       "label": "TP",
-      "chapterTitle": "32 — Comprendre les bibliothèques partagées",
+      "chapterTitle": "32. Comprendre les bibliothèques partagées",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -396,7 +396,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/",
       "label": "Cours",
-      "chapterTitle": "33 — Identifier le matériel et les modules du noyau",
+      "chapterTitle": "33. Identifier le matériel et les modules du noyau",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -406,7 +406,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/",
       "label": "Cours",
-      "chapterTitle": "34 — Observer les événements matériels",
+      "chapterTitle": "34. Observer les événements matériels",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -416,7 +416,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/",
       "label": "Cours",
-      "chapterTitle": "35 — Démarrage, arrêt et cibles systemd",
+      "chapterTitle": "35. Démarrage, arrêt et cibles systemd",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -426,7 +426,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/36-services/",
       "label": "Cours",
-      "chapterTitle": "36 — Gérer les services avec systemd",
+      "chapterTitle": "36. Gérer les services avec systemd",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -436,7 +436,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/37-journaux/",
       "label": "Cours",
-      "chapterTitle": "37 — Consulter les journaux et diagnostiquer",
+      "chapterTitle": "37. Consulter les journaux et diagnostiquer",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -446,7 +446,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/",
       "label": "Cours",
-      "chapterTitle": "38 — Comprendre GRUB et la récupération",
+      "chapterTitle": "38. Comprendre GRUB et la récupération",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -454,7 +454,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/tp",
       "label": "TP",
-      "chapterTitle": "38 — Comprendre GRUB et la récupération",
+      "chapterTitle": "38. Comprendre GRUB et la récupération",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -464,7 +464,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/lpi101/39-ssh/",
       "label": "Cours",
-      "chapterTitle": "39 — Se connecter à distance avec SSH",
+      "chapterTitle": "39. Se connecter à distance avec SSH",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -472,7 +472,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/lpi101/39-ssh/tp",
       "label": "TP",
-      "chapterTitle": "39 — Se connecter à distance avec SSH",
+      "chapterTitle": "39. Se connecter à distance avec SSH",
       "track": "lpi101",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -482,7 +482,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/01-acl/",
       "label": "Cours",
-      "chapterTitle": "C01 — Donner des droits précis avec les ACL",
+      "chapterTitle": "C01. Donner des droits précis avec les ACL",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -490,7 +490,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/complements/01-acl/tp",
       "label": "TP",
-      "chapterTitle": "C01 — Donner des droits précis avec les ACL",
+      "chapterTitle": "C01. Donner des droits précis avec les ACL",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -500,7 +500,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/02-lvm/",
       "label": "Cours",
-      "chapterTitle": "C02 — Comprendre et manipuler LVM",
+      "chapterTitle": "C02. Comprendre et manipuler LVM",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -508,7 +508,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/complements/02-lvm/tp",
       "label": "TP",
-      "chapterTitle": "C02 — Comprendre et manipuler LVM",
+      "chapterTitle": "C02. Comprendre et manipuler LVM",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -518,7 +518,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/03-premiers-scripts/",
       "label": "Cours",
-      "chapterTitle": "C03 — Écrire un premier script Bash",
+      "chapterTitle": "C03. Écrire un premier script Bash",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -528,7 +528,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/04-conditions-boucles/",
       "label": "Cours",
-      "chapterTitle": "C04 — Découvrir les conditions et les boucles",
+      "chapterTitle": "C04. Découvrir les conditions et les boucles",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -538,7 +538,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/",
       "label": "Cours",
-      "chapterTitle": "C05 — Lire des scripts utilitaires",
+      "chapterTitle": "C05. Lire des scripts utilitaires",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     },
@@ -546,7 +546,7 @@
       "kind": "tp",
       "href": "https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/tp",
       "label": "TP",
-      "chapterTitle": "C05 — Lire des scripts utilitaires",
+      "chapterTitle": "C05. Lire des scripts utilitaires",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect x=\"2\" y=\"4\" width=\"28\" height=\"24\" rx=\"5\" fill=\"#237b60\"/><path d=\"m8 12 5 4-5 4m9 0h7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n"
     }
@@ -556,7 +556,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/06-wsl/",
       "label": "Cours",
-      "chapterTitle": "C06 — Découvrir Linux sous Windows avec WSL",
+      "chapterTitle": "C06. Découvrir Linux sous Windows avec WSL",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -566,7 +566,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/07-cloud-init/",
       "label": "Cours",
-      "chapterTitle": "C07 — Découvrir Cloud-init",
+      "chapterTitle": "C07. Découvrir Cloud-init",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -576,7 +576,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/08-personnaliser-terminal/",
       "label": "Cours",
-      "chapterTitle": "C08 — Personnaliser son terminal",
+      "chapterTitle": "C08. Personnaliser son terminal",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }
@@ -586,7 +586,7 @@
       "kind": "markdown",
       "href": "https://kayasam.github.io/lpi101/complements/09-reperes-certification/",
       "label": "Cours",
-      "chapterTitle": "C09 — Repères pour poursuivre la préparation LPI 101",
+      "chapterTitle": "C09. Repères pour poursuivre la préparation LPI 101",
       "track": "complements",
       "symbol": "<svg class=\"resource-symbol\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 24\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"22\" rx=\"3\" fill=\"none\" stroke=\"#34495e\" stroke-width=\"2\"/><path d=\"M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z\" fill=\"#34495e\"/><path d=\"M23 6h3v7h3l-4.5 5-4.5-5h3Z\" fill=\"#34495e\"/></svg>\n"
     }

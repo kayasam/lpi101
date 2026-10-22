@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "Linux — Initiation et préparation LPI 101"
+  pageTitle: "Linux : initiation et préparation LPI 101"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true

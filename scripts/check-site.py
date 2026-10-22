@@ -45,7 +45,9 @@ for track in manifest['tracks']:
         names=z.namelist()
         for entry in [e for e in manifest['exercises'] if e['track']==track['id']]:
             slug=entry['downloadStem']
-            assert ('tp/'+slug+'-corrigev2.md' in names)==entry['correction']
+            assert entry['offlineTP'] in names
+            assert (entry['offlineCorrection'] in names)==entry['correction']
+            assert '/tp/' in entry['offlineTP']
         for name in names:
             if not name.endswith('.md'):continue
             for link in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',z.read(name).decode('utf-8')):

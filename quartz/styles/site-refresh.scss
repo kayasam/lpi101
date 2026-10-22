@@ -359,3 +359,16 @@ html[saved-theme] body footer { font-size: .75rem; padding: 1rem 2rem; color: va
   html[saved-theme] body .site-mobile-header button { font-size: .73rem; padding-inline: .5rem; }
   html[saved-theme] body nav.chapter-resources a.resource-button { font-size: .74rem; padding-inline: .25rem; gap: .2rem; }
 }
+
+/* LPI 101: use the Linux initiation mascot on the training parent. */
+html[saved-theme] body .explorer-content .folder-container.is-track-root[data-folderpath="lpi101/index"] {
+  grid-template-columns: 1.6rem minmax(0, 1fr) .8rem;
+  &::before {
+    display: block;
+    content: "";
+    background: transparent url("/lpi101/assets/brands/formation.svg") center / contain no-repeat;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  > div { grid-column: 2; }
+}

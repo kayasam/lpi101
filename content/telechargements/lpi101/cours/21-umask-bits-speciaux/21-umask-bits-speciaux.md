@@ -1,0 +1,100 @@
+# 21. Droits par défaut et bits spéciaux
+
+> [!note] Objectif
+> Expliquer umask, SUID, SGID et sticky bit avec des cas concrets.
+
+**Repères LPI 101 :** 104.5.
+
+**Commandes à connaître :** `umask`, `chmod`.
+
+---
+
+## Masque `umask`
+
+`umask` retire des droits aux permissions demandées lors de la création d’un fichier ou d’un répertoire. Ce masque se combine par opérations sur les bits, pas par une soustraction arithmétique générale.
+
+Afficher la valeur actuelle :
+
+```bash
+umask
+```
+
+Exemple :
+
+```text
+0022
+```
+
+Interprétation :
+
+* Fichier créé → permissions par défaut `644` avec un masque `022` (rw-r--r--)
+* Répertoire créé → permissions par défaut `755` avec un masque `022` (rwxr-xr-x)
+
+Modifier temporairement la valeur :
+
+```bash
+umask 002
+```
+
+Cela donnera par défaut :
+
+* fichiers : `664`
+* répertoires : `775`
+
+---
+
+## Bits spéciaux : `suid`, `sgid`, `sticky bit`
+
+Ces bits modifient le comportement d’exécution ou d’accès à certains fichiers.
+
+## `suid` (Set User ID)
+
+* Sur un fichier exécutable : le programme s’exécute avec les droits du propriétaire.
+* Exemple : `/usr/bin/passwd` possède le bit `s` pour root :
+
+  ```text
+  -rwsr-xr-x 1 root root /usr/bin/passwd
+  ```
+
+  Cela permet à un utilisateur de modifier son mot de passe sans être root.
+
+## `sgid` (Set Group ID)
+
+* Sur un dossier : les nouveaux fichiers héritent du groupe du dossier.
+* Exemple :
+
+  ```bash
+  chmod g+s /srv/projets
+  ```
+
+  Tous les fichiers créés dans `/srv/projets` appartiendront au même groupe.
+
+## `sticky bit`
+
+* Dans un dossier partagé, réserve la suppression ou le renommage d’une entrée au propriétaire du fichier, au propriétaire du dossier ou à un processus suffisamment privilégié.
+* Utilisé dans `/tmp` :
+
+  ```text
+  drwxrwxrwt 10 root root /tmp
+  ```
+
+  Le `t` final indique le sticky bit.
+
+---
+
+## Calculer les droits à la création
+
+Le masque retire des droits aux permissions demandées par le programme. Pour les créations courantes : base `666` pour un fichier ordinaire et `777` pour un dossier.
+
+| Masque | Fichier courant | Dossier courant |
+|---|---|---|
+| `022` | `644` | `755` |
+| `027` | `640` | `750` |
+| `077` | `600` | `700` |
+
+`umask` ne modifie pas les fichiers déjà existants et n’ajoute pas de droit d’exécution aux nouveaux fichiers ordinaires. Les ACL par défaut peuvent aussi intervenir.
+
+## À retenir
+
+> [!tip]
+> `umask` concerne les droits à la création ; SGID sur un dossier facilite le partage de groupe ; le sticky bit protège la suppression des entrées d’un dossier partagé. SUID sur un exécutable change l’identité effective du processus.

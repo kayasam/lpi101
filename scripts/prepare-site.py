@@ -109,11 +109,11 @@ def prepare():
             item['title']=title(item['path'].read_text(encoding='utf-8-sig')); annexes.append(item); routes[item['path']]=item['href']
     offline_names={}
     for item in chapters:
-        offline_names[item['path']]=(item['track'],'cours/'+item['slug']+'.md')
+        offline_names[item['path']]=(item['track'],item['course'])
         for exercise in item['exercises']:
-            offline_names[exercise['path']]=(item['track'],'tp/'+exercise['downloadStem']+'.md')
+            offline_names[exercise['path']]=(item['track'],exercise['path'].relative_to(source_root).as_posix())
             corrected=exercise['correctionPath']
-            if corrected and corrected in routes: offline_names[corrected]=(item['track'],'tp/'+exercise['downloadStem']+'-corrigev2.md')
+            if corrected and corrected in routes: offline_names[corrected]=(item['track'],corrected.relative_to(source_root).as_posix())
     for item in annexes: offline_names[item['path']]=(item['track'],'annexe/'+item['slug']+'.md')
     def offline(text,origin):
         track,name=offline_names[origin]
@@ -162,8 +162,8 @@ def prepare():
             buttons=''.join('<a class="resource-button" data-resource-kind="'+r['kind']+'" href="'+r['href']+'"><span class="resource-icon">'+r['symbol']+'</span><span class="resource-label">'+r['label']+'</span></a>' for r in entries)
             def bar(download=None): return '<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="'+key+'"><div class="resource-buttons">'+buttons+'</div><div class="resource-actions">'+(download or '')+'<button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>'
             course_text=body(item['path'].read_text(encoding='utf-8-sig'))
-            public_text=resolve(course_text,item['path']); relative='telechargements/'+tid+'/cours/'+slug+'.md'
-            write(stage/relative,public_text); files['cours/'+slug+'.md']=offline(course_text,item['path'])
+            public_text=resolve(course_text,item['path']); relative='telechargements/'+tid+'/'+offline_names[item['path']][1]
+            write(stage/relative,public_text); files[offline_names[item['path']][1]]=offline(course_text,item['path'])
             pdf_entries.append(dict(key=key,title=label,href=item['href'],download=relative,sourceSha256=digest(public_text.encode())))
             write(stage/key/'index.md',page(label,bar(download_button(base+'/'+relative,'Télécharger le cours'))+'\n\n'+without_heading(public_text)))
             for kind in ('html','quiz'):
@@ -187,19 +187,19 @@ def prepare():
                 correction_url=base+'/'+exercise['correctionKey']; nav=''
                 if visible:
                     nav='<nav class="exercise-resources" aria-label="Ressources du TP"><a href="'+tp_url+'" aria-current="page">Énoncé</a><a class="exercise-correction" href="'+correction_url+'">Afficher les corrections</a></nav>'
-                    correction_text=body(corrected.read_text(encoding='utf-8-sig')); corrected_download='telechargements/'+tid+'/tp/'+download_stem+'-corrigev2.md'
+                    correction_text=body(corrected.read_text(encoding='utf-8-sig')); corrected_download='telechargements/'+tid+'/'+offline_names[corrected][1]
                     correction_public=resolve(correction_text,corrected); write(stage/corrected_download,correction_public)
-                    files['tp/'+download_stem+'-corrigev2.md']=offline(correction_text,corrected)
+                    files[offline_names[corrected][1]]=offline(correction_text,corrected)
                     raw+='\n\n[Afficher les corrections]('+slug+'-corrigev2.md)\n'
                     correction_nav='<nav class="exercise-resources" aria-label="Ressources du TP"><a href="'+tp_url+'">Énoncé</a><a class="exercise-correction" href="'+correction_url+'" aria-current="page">Corrigé</a></nav>'
                     write(stage/(exercise['correctionKey']+'.md'),page(title(correction_text),bar(download_button(base+'/'+corrected_download,'Télécharger le corrigé'))+'\n'+correction_nav+'\n\n'+without_heading(correction_public)))
                     manifest['corrections'].append(exercise['key'])
-                files['tp/'+download_stem+'.md']=offline(body(tp.read_text(encoding='utf-8-sig')),tp)+ ('\n\n[Afficher les corrections]('+download_stem+'-corrigev2.md)\n' if visible else '')
-                tp_download='telechargements/'+tid+'/tp/'+download_stem+'.md'
+                files[offline_names[tp][1]]=offline(body(tp.read_text(encoding='utf-8-sig')),tp)+ ('\n\n[Afficher les corrections]('+corrected.name+')\n' if visible else '')
+                tp_download='telechargements/'+tid+'/'+offline_names[tp][1]
                 tp_public=resolve(body(tp.read_text(encoding='utf-8-sig')),tp)
                 write(stage/tp_download,tp_public+ ('\n\n[Afficher les corrections]('+correction_url+')\n' if visible else ''))
                 write(stage/(exercise['key']+'.md'),page(tp_label,bar(download_button(base+'/'+tp_download,'Télécharger le TP'))+'\n'+nav+'\n\n'+without_heading(tp_public)))
-                manifest['exercises'].append(dict(key=exercise['key'],correctionKey=exercise['correctionKey'],downloadStem=download_stem,track=tid,correction=visible))
+                manifest['exercises'].append(dict(key=exercise['key'],correctionKey=exercise['correctionKey'],downloadStem=download_stem,track=tid,correction=visible,offlineTP=offline_names[tp][1],offlineCorrection=offline_names[corrected][1] if visible else None))
             if len(item['exercises'])>1:
                 listing='\n\n'.join('- ['+title(e['path'].read_text(encoding='utf-8-sig'))+']('+base+'/'+e['key']+')' for e in item['exercises'])
                 write(stage/key/'tp.md',page('Travaux pratiques — '+label,bar()+'\n\n'+listing))
