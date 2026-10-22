@@ -1,0 +1,132 @@
+---
+title: "29 — Vérifier et entretenir les systèmes de fichiers"
+---
+
+<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="lpi101/29-integrite-maintenance"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
+</span><span class="resource-label">Cours</span></a><a class="resource-button" data-resource-kind="tp" href="https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/tp"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect x="2" y="4" width="28" height="24" rx="5" fill="#237b60"/><path d="m8 12 5 4-5 4m9 0h7" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</span><span class="resource-label">TP</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://kayasam.github.io/lpi101/telechargements/lpi101/cours/29-integrite-maintenance.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
+
+> [!note] Objectif
+> Comprendre les outils d’inspection et les conditions d’une vérification.
+
+**Repères LPI 101 :** 104.2.
+
+**Commandes à connaître :** `tune2fs`, `fsck`, `e2fsck`, `rsync`.
+
+---
+
+## Introduction
+
+Même si les systèmes de fichiers Linux comme **ext4** ou **xfs** sont très fiables, il peut arriver qu’un volume soit endommagé après une coupure brutale ou un problème matériel.
+Cette partie explique comment **observer** l’état d’un système de fichiers et, de manière encadrée, comment **lancer une vérification** en cas de besoin.
+
+---
+> [!danger]
+>  ⚠️ Avertissement important
+>
+> Les outils de vérification (`fsck`, `e2fsck`) peuvent **modifier la structure interne du système de fichiers**.
+> 👉 **Ne les utilisez jamais sur une partition montée** ou sur le disque système actif.
+> Ils doivent être réservés :
+>
+> * aux partitions de test, ou
+> * à une utilisation en **mode maintenance (live CD)**.
+>
+> Dans le cadre de cette formation, **on se limite à la consultation et à la compréhension** de leur usage.
+
+---
+
+## Vérification et inspection d’un système de fichiers
+
+## `tune2fs` — afficher les informations d’un volume ext4
+
+Avec l’option `-l`, `tune2fs` lit les **métadonnées de maintenance** d’un système de fichiers ext2/3/4 sans modifier ses paramètres.
+
+```bash
+sudo tune2fs -l /dev/sdb1
+```
+
+Exemples de champs utiles :
+
+* **Filesystem state** : indique si le système est propre (`clean`) ou s’il a besoin d’une vérification.
+* **Last checked** : date de la dernière vérification.
+* **Mount count / Maximum mount count** : nombre de montages avant vérification automatique.
+> [!info]
+> `tune2fs -l` affiche des informations. D’autres options de `tune2fs` modifient les paramètres du système de fichiers.
+
+---
+
+## `fsck` — vérifier la cohérence d’un système de fichiers
+
+`fsck` est un frontal qui appelle l’outil de vérification adapté au type de système de fichiers. Les options et possibilités dépendent de cet outil ; les exemples suivants concernent ext4, démonté, dans le laboratoire.
+
+```bash
+sudo fsck -n /dev/sdb1
+```
+
+Options courantes :
+
+* `-n` : demande une vérification sans réparation, selon l’outil appelé ; conserver le volume démonté
+* `-y` : répond “oui” automatiquement aux corrections
+* Vérifier les options du vérificateur concerné dans son manuel ; ne pas automatiser les réparations pendant cette initiation.
+
+> [!danger]
+> ⚠️ N’utilisez **jamais `fsck` sur une partition montée**.
+> Pour une vérification en sécurité : démontez d’abord le volume :
+> ```bash
+> sudo umount /dev/sdb1
+> ```
+
+---
+
+## `e2fsck` — version spécifique pour ext2/ext3/ext4
+
+`e2fsck` est la version dédiée des systèmes de fichiers ext*.
+`fsck` appelle normalement `e2fsck` pour un système ext2/3/4. L’utiliser directement permet de choisir ses options propres.
+
+Exemple :
+
+```bash
+sudo e2fsck -fn /dev/sdb1
+```
+
+Options :
+
+* `-f` : force la vérification même si le système est marqué “clean”.
+* `-n` : lecture seule, sans réparation.
+
+---
+
+## Sauvegarde et prévention
+
+Avant toute manipulation ou vérification, il est essentiel de **sauvegarder les données importantes**.
+Deux commandes simples permettent de le faire :
+
+## Copie complète d’un répertoire
+
+```bash
+cp -rpv /home/sam/Documents /mnt/backup/
+```
+
+* `-r` : récursif
+* `-p` : conserve les droits et dates
+* `-v` : affiche les fichiers copiés
+
+## Synchronisation rapide avec `rsync`
+
+```bash
+rsync -av /home/sam/Documents /mnt/backup/
+```
+
+* `-a` : mode archive
+* `-v` : mode verbeux
+* `--delete` (optionnel) : synchronise en supprimant les fichiers disparus côté source
+
+---
+
+## À retenir
+> [!tip]
+> * **`tune2fs -l`** : affiche l’état d’un système de fichiers ext4 sans le modifier.
+> * **`fsck` / `e2fsck`** : vérifient et réparent la cohérence d’un volume (uniquement quand il est démonté).
+> * **`df -i`** : indique l’utilisation des inodes (utile pour diagnostiquer un disque “plein” de petits fichiers).
+> * Toujours **sauvegarder avant de corriger** : `cp -r` ou `rsync` permettent de copier les données ; contrôler la destination et vérifier la restauration.
+> * En cas de doute, **ne jamais exécuter une vérification sur le disque système actif** — passer par un live CD ou un mode de secours.

@@ -1,0 +1,244 @@
+{
+  "title": "Linux — Initiation et préparation LPI 101",
+  "shortTitle": "LPI 101",
+  "description": "Découvrir Linux, comprendre son fonctionnement et pratiquer les bases de l’administration système.",
+  "baseUrl": "https://kayasam.github.io/lpi101",
+  "sourceRoot": "sources",
+  "vaultRoot": "C:\\Users\\kayaw\\Nextcloud\\Obsidian\\CoffreSam\\Formations\\lpi101\\LPI-101-Obsidian",
+  "tracks": [
+    {
+      "id": "lpi101",
+      "title": "Linux — Initiation et préparation LPI 101",
+      "description": "39 chapitres pour découvrir Linux et pratiquer progressivement sur Debian.",
+      "chapters": [
+        {
+          "slug": "01-comprendre-gnu-linux",
+          "course": "cours/01-comprendre-gnu-linux.md"
+        },
+        {
+          "slug": "02-distributions",
+          "course": "cours/02-distributions.md"
+        },
+        {
+          "slug": "03-architecture-linux",
+          "course": "cours/03-architecture-linux.md"
+        },
+        {
+          "slug": "04-preparer-installation",
+          "course": "cours/04-preparer-installation.md"
+        },
+        {
+          "slug": "05-installation-machine-virtuelle",
+          "course": "cours/05-installation-machine-virtuelle.md"
+        },
+        {
+          "slug": "06-acceder-et-configurer",
+          "course": "cours/06-acceder-et-configurer.md"
+        },
+        {
+          "slug": "07-premieres-commandes",
+          "course": "cours/07-premieres-commandes.md"
+        },
+        {
+          "slug": "08-chemins-et-navigation",
+          "course": "cours/08-chemins-et-navigation.md"
+        },
+        {
+          "slug": "09-lire-fichiers",
+          "course": "cours/09-lire-fichiers.md",
+          "tp": "tp/01-premiers-pas/tp-01-premiers-pas.md",
+          "correction": "tp/01-premiers-pas/tp-01-premiers-pas-correction.md"
+        },
+        {
+          "slug": "10-manipuler-fichiers",
+          "course": "cours/10-manipuler-fichiers.md"
+        },
+        {
+          "slug": "11-jokers-et-recherche",
+          "course": "cours/11-jokers-et-recherche.md"
+        },
+        {
+          "slug": "12-liens",
+          "course": "cours/12-liens.md",
+          "tp": "tp/02-fichiers-recherche-liens/tp-02-fichiers-recherche-liens.md",
+          "correction": "tp/02-fichiers-recherche-liens/tp-02-fichiers-recherche-liens-correction.md"
+        },
+        {
+          "slug": "13-archives-compression",
+          "course": "cours/13-archives-compression.md"
+        },
+        {
+          "slug": "14-environnement-shell",
+          "course": "cours/14-environnement-shell.md",
+          "tp": "tp/03-archives-environnement/tp-03-archives-environnement.md",
+          "correction": "tp/03-archives-environnement/tp-03-archives-environnement-correction.md"
+        },
+        {
+          "slug": "15-flux-redirections",
+          "course": "cours/15-flux-redirections.md"
+        },
+        {
+          "slug": "16-filtres-textuels",
+          "course": "cours/16-filtres-textuels.md"
+        },
+        {
+          "slug": "17-expressions-regulieres",
+          "course": "cours/17-expressions-regulieres.md",
+          "tp": "tp/04-flux-filtres-regex/tp-04-flux-filtres-regex.md",
+          "correction": "tp/04-flux-filtres-regex/tp-04-flux-filtres-regex-correction.md"
+        },
+        {
+          "slug": "18-editeurs-texte",
+          "course": "cours/18-editeurs-texte.md",
+          "tp": "tp/05-editeurs/tp-05-editeurs.md",
+          "correction": "tp/05-editeurs/tp-05-editeurs-correction.md"
+        },
+        {
+          "slug": "19-utilisateurs-groupes",
+          "course": "cours/19-utilisateurs-groupes.md"
+        },
+        {
+          "slug": "20-permissions",
+          "course": "cours/20-permissions.md"
+        },
+        {
+          "slug": "21-umask-bits-speciaux",
+          "course": "cours/21-umask-bits-speciaux.md",
+          "tp": "tp/06-comptes-permissions/tp-06-comptes-permissions.md",
+          "correction": "tp/06-comptes-permissions/tp-06-comptes-permissions-correction.md"
+        },
+        {
+          "slug": "22-processus",
+          "course": "cours/22-processus.md"
+        },
+        {
+          "slug": "23-priorites",
+          "course": "cours/23-priorites.md",
+          "tp": "tp/07-processus/tp-07-processus.md",
+          "correction": "tp/07-processus/tp-07-processus-correction.md"
+        },
+        {
+          "slug": "24-arborescence-fhs",
+          "course": "cours/24-arborescence-fhs.md"
+        },
+        {
+          "slug": "25-concevoir-partitionnement",
+          "course": "cours/25-concevoir-partitionnement.md"
+        },
+        {
+          "slug": "26-partitions-formatage",
+          "course": "cours/26-partitions-formatage.md"
+        },
+        {
+          "slug": "27-montage-fstab",
+          "course": "cours/27-montage-fstab.md"
+        },
+        {
+          "slug": "28-espace-disque-inodes",
+          "course": "cours/28-espace-disque-inodes.md"
+        },
+        {
+          "slug": "29-integrite-maintenance",
+          "course": "cours/29-integrite-maintenance.md",
+          "tp": "tp/08-stockage/tp-08-stockage.md",
+          "correction": "tp/08-stockage/tp-08-stockage-correction.md"
+        },
+        {
+          "slug": "30-paquets-debian",
+          "course": "cours/30-paquets-debian.md"
+        },
+        {
+          "slug": "31-paquets-rpm",
+          "course": "cours/31-paquets-rpm.md"
+        },
+        {
+          "slug": "32-bibliotheques",
+          "course": "cours/32-bibliotheques.md",
+          "tp": "tp/09-paquets-bibliotheques/tp-09-paquets-bibliotheques.md",
+          "correction": "tp/09-paquets-bibliotheques/tp-09-paquets-bibliotheques-correction.md"
+        },
+        {
+          "slug": "33-materiel-modules",
+          "course": "cours/33-materiel-modules.md"
+        },
+        {
+          "slug": "34-evenements-materiels",
+          "course": "cours/34-evenements-materiels.md"
+        },
+        {
+          "slug": "35-demarrage-arret",
+          "course": "cours/35-demarrage-arret.md"
+        },
+        {
+          "slug": "36-services",
+          "course": "cours/36-services.md"
+        },
+        {
+          "slug": "37-journaux",
+          "course": "cours/37-journaux.md"
+        },
+        {
+          "slug": "38-grub-recuperation",
+          "course": "cours/38-grub-recuperation.md",
+          "tp": "tp/10-machine-services-journaux/tp-10-machine-services-journaux.md",
+          "correction": "tp/10-machine-services-journaux/tp-10-machine-services-journaux-correction.md"
+        },
+        {
+          "slug": "39-ssh",
+          "course": "cours/39-ssh.md",
+          "tp": "tp/11-ssh/tp-11-ssh.md",
+          "correction": "tp/11-ssh/tp-11-ssh-correction.md"
+        }
+      ]
+    },
+    {
+      "id": "complements",
+      "title": "Pour aller plus loin",
+      "description": "Des compléments à découvrir selon le rythme du groupe.",
+      "chapters": [
+        {
+          "slug": "01-acl",
+          "course": "complements/C01-acl.md",
+          "tp": "tp/12-acl/tp-12-acl.md",
+          "correction": "tp/12-acl/tp-12-acl-correction.md"
+        },
+        {
+          "slug": "02-lvm",
+          "course": "complements/C02-lvm.md",
+          "tp": "tp/13-lvm/tp-13-lvm.md",
+          "correction": "tp/13-lvm/tp-13-lvm-correction.md"
+        },
+        {
+          "slug": "03-premiers-scripts",
+          "course": "complements/C03-premiers-scripts.md"
+        },
+        {
+          "slug": "04-conditions-boucles",
+          "course": "complements/C04-conditions-boucles.md"
+        },
+        {
+          "slug": "05-scripts-utilitaires",
+          "course": "complements/C05-scripts-utilitaires.md",
+          "tp": "tp/14-scripts/tp-14-scripts.md",
+          "correction": "tp/14-scripts/tp-14-scripts-correction.md"
+        },
+        {
+          "slug": "06-wsl",
+          "course": "complements/C06-wsl.md"
+        },
+        {
+          "slug": "07-cloud-init",
+          "course": "complements/C07-cloud-init.md"
+        },
+        {
+          "slug": "08-personnaliser-terminal",
+          "course": "complements/C08-personnaliser-terminal.md"
+        },
+        {
+          "slug": "09-reperes-certification",
+          "course": "complements/C09-reperes-certification.md"
+        }
+      ]
+    }
+  ]
+}

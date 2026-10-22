@@ -1,0 +1,406 @@
+{
+  "chapters": [
+    {
+      "key": "lpi101/01-comprendre-gnu-linux",
+      "title": "01 — Comprendre GNU/Linux et le logiciel libre",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/02-distributions",
+      "title": "02 — Choisir et reconnaître une distribution Linux",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/03-architecture-linux",
+      "title": "03 — Comprendre les composants du système",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/04-preparer-installation",
+      "title": "04 — Préparer une installation Linux",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/05-installation-machine-virtuelle",
+      "title": "05 — Installer Debian dans une machine virtuelle",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/06-acceder-et-configurer",
+      "title": "06 — Accéder à la VM et préparer sa session",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/07-premieres-commandes",
+      "title": "07 — Comprendre et utiliser une commande",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/08-chemins-et-navigation",
+      "title": "08 — Se déplacer et comprendre les chemins",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/09-lire-fichiers",
+      "title": "09 — Lire et identifier des fichiers",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/10-manipuler-fichiers",
+      "title": "10 — Créer, copier, déplacer et supprimer",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/11-jokers-et-recherche",
+      "title": "11 — Utiliser les jokers et rechercher",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/12-liens",
+      "title": "12 — Comprendre les liens physiques et symboliques",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/13-archives-compression",
+      "title": "13 — Archiver et compresser",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/14-environnement-shell",
+      "title": "14 — Variables, environnement et historique",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/15-flux-redirections",
+      "title": "15 — Flux, redirections et tubes",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/16-filtres-textuels",
+      "title": "16 — Filtrer et transformer du texte",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/17-expressions-regulieres",
+      "title": "17 — Rechercher avec les expressions régulières",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/18-editeurs-texte",
+      "title": "18 — Modifier un fichier avec nano et vi",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/19-utilisateurs-groupes",
+      "title": "19 — Utilisateurs, groupes et droits administrateur",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/20-permissions",
+      "title": "20 — Lire et modifier les permissions",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/21-umask-bits-speciaux",
+      "title": "21 — Droits par défaut et bits spéciaux",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/22-processus",
+      "title": "22 — Observer et contrôler les processus",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/23-priorites",
+      "title": "23 — Comprendre les priorités des processus",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/24-arborescence-fhs",
+      "title": "24 — Se repérer dans l’arborescence Linux",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/25-concevoir-partitionnement",
+      "title": "25 — Concevoir un partitionnement simple",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/26-partitions-formatage",
+      "title": "26 — Créer des partitions et des systèmes de fichiers",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/27-montage-fstab",
+      "title": "27 — Monter un système de fichiers et utiliser fstab",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/28-espace-disque-inodes",
+      "title": "28 — Mesurer l’espace, la mémoire et les inodes",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/29-integrite-maintenance",
+      "title": "29 — Vérifier et entretenir les systèmes de fichiers",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/30-paquets-debian",
+      "title": "30 — Installer et gérer les paquets Debian",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/31-paquets-rpm",
+      "title": "31 — Reconnaître RPM, DNF, YUM et Zypper",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/32-bibliotheques",
+      "title": "32 — Comprendre les bibliothèques partagées",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/33-materiel-modules",
+      "title": "33 — Identifier le matériel et les modules du noyau",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/34-evenements-materiels",
+      "title": "34 — Observer les événements matériels",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/35-demarrage-arret",
+      "title": "35 — Démarrage, arrêt et cibles systemd",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/36-services",
+      "title": "36 — Gérer les services avec systemd",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/37-journaux",
+      "title": "37 — Consulter les journaux et diagnostiquer",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "lpi101/38-grub-recuperation",
+      "title": "38 — Comprendre GRUB et la récupération",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "lpi101/39-ssh",
+      "title": "39 — Se connecter à distance avec SSH",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "complements/01-acl",
+      "title": "C01 — Donner des droits précis avec les ACL",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "complements/02-lvm",
+      "title": "C02 — Comprendre et manipuler LVM",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "complements/03-premiers-scripts",
+      "title": "C03 — Écrire un premier script Bash",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "complements/04-conditions-boucles",
+      "title": "C04 — Découvrir les conditions et les boucles",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "complements/05-scripts-utilitaires",
+      "title": "C05 — Lire des scripts utilitaires",
+      "tp": true,
+      "correction": false
+    },
+    {
+      "key": "complements/06-wsl",
+      "title": "C06 — Découvrir Linux sous Windows avec WSL",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "complements/07-cloud-init",
+      "title": "C07 — Découvrir Cloud-init",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "complements/08-personnaliser-terminal",
+      "title": "C08 — Personnaliser son terminal",
+      "tp": false,
+      "correction": false
+    },
+    {
+      "key": "complements/09-reperes-certification",
+      "title": "C09 — Repères pour poursuivre la préparation LPI 101",
+      "tp": false,
+      "correction": false
+    }
+  ],
+  "exercises": [
+    {
+      "key": "lpi101/09-lire-fichiers/tp",
+      "correctionKey": "lpi101/09-lire-fichiers/tp-corrigev2",
+      "downloadStem": "09-lire-fichiers",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/12-liens/tp",
+      "correctionKey": "lpi101/12-liens/tp-corrigev2",
+      "downloadStem": "12-liens",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/14-environnement-shell/tp",
+      "correctionKey": "lpi101/14-environnement-shell/tp-corrigev2",
+      "downloadStem": "14-environnement-shell",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/17-expressions-regulieres/tp",
+      "correctionKey": "lpi101/17-expressions-regulieres/tp-corrigev2",
+      "downloadStem": "17-expressions-regulieres",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/18-editeurs-texte/tp",
+      "correctionKey": "lpi101/18-editeurs-texte/tp-corrigev2",
+      "downloadStem": "18-editeurs-texte",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/21-umask-bits-speciaux/tp",
+      "correctionKey": "lpi101/21-umask-bits-speciaux/tp-corrigev2",
+      "downloadStem": "21-umask-bits-speciaux",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/23-priorites/tp",
+      "correctionKey": "lpi101/23-priorites/tp-corrigev2",
+      "downloadStem": "23-priorites",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/29-integrite-maintenance/tp",
+      "correctionKey": "lpi101/29-integrite-maintenance/tp-corrigev2",
+      "downloadStem": "29-integrite-maintenance",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/32-bibliotheques/tp",
+      "correctionKey": "lpi101/32-bibliotheques/tp-corrigev2",
+      "downloadStem": "32-bibliotheques",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/38-grub-recuperation/tp",
+      "correctionKey": "lpi101/38-grub-recuperation/tp-corrigev2",
+      "downloadStem": "38-grub-recuperation",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "lpi101/39-ssh/tp",
+      "correctionKey": "lpi101/39-ssh/tp-corrigev2",
+      "downloadStem": "39-ssh",
+      "track": "lpi101",
+      "correction": false
+    },
+    {
+      "key": "complements/01-acl/tp",
+      "correctionKey": "complements/01-acl/tp-corrigev2",
+      "downloadStem": "01-acl",
+      "track": "complements",
+      "correction": false
+    },
+    {
+      "key": "complements/02-lvm/tp",
+      "correctionKey": "complements/02-lvm/tp-corrigev2",
+      "downloadStem": "02-lvm",
+      "track": "complements",
+      "correction": false
+    },
+    {
+      "key": "complements/05-scripts-utilitaires/tp",
+      "correctionKey": "complements/05-scripts-utilitaires/tp-corrigev2",
+      "downloadStem": "05-scripts-utilitaires",
+      "track": "complements",
+      "correction": false
+    }
+  ],
+  "corrections": [],
+  "tracks": [
+    {
+      "id": "lpi101",
+      "title": "Linux — Initiation et préparation LPI 101",
+      "href": "https://kayasam.github.io/lpi101/lpi101/"
+    },
+    {
+      "id": "complements",
+      "title": "Pour aller plus loin",
+      "href": "https://kayasam.github.io/lpi101/complements/"
+    }
+  ],
+  "templateVersion": 1
+}
