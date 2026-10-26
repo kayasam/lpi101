@@ -52,7 +52,7 @@
       "key": "lpi101/09-lire-fichiers",
       "title": "09. Lire et identifier des fichiers",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/10-manipuler-fichiers",
@@ -295,9 +295,9 @@
       "correctionKey": "lpi101/09-lire-fichiers/tp-corrigev2",
       "downloadStem": "09-lire-fichiers",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/09-lire-fichiers/tp/tp-01-premiers-pas.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/09-lire-fichiers/tp/tp-01-premiers-pas-correction.md"
     },
     {
       "key": "lpi101/12-liens/tp",
@@ -417,7 +417,9 @@
       "offlineCorrection": null
     }
   ],
-  "corrections": [],
+  "corrections": [
+    "lpi101/09-lire-fichiers/tp"
+  ],
   "tracks": [
     {
       "id": "lpi101",

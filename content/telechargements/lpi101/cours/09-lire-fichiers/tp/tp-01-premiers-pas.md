@@ -49,3 +49,6 @@ La VM Debian vient d’être installée. Utilise le compte standard créé à l�
 **C3.** Trouve l’option de `ls` qui affiche les fichiers cachés. Consulte aussi le manuel et quitte-le.
 
 **C4.** Explique la différence entre `/`, `/root` et ton dossier personnel. Vérifie les métadonnées de `/etc` lui-même.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/09-lire-fichiers/tp-corrigev2)
