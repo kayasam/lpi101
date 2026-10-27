@@ -2,7 +2,7 @@
 
 > Durée estimée : 50 min
 
-> Chapitres associés : [22. Observer et contrôler les processus](https://kayasam.github.io/lpi101/lpi101/22-processus/), [23. Comprendre les priorités des processus](https://kayasam.github.io/lpi101/lpi101/23-priorites/)
+> Chapitres associés : [22. Observer et contrôler les processus](https://cours.kaya.ovh/lpi101/lpi101/22-processus/), [23. Comprendre les priorités des processus](https://cours.kaya.ovh/lpi101/lpi101/23-priorites/)
 
 ---
 

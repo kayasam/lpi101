@@ -22,7 +22,7 @@ Pour la référence locale : `man hier`.
 ---
 
 Le FHS définit une arborescence standardisée afin de garantir la cohérence entre distributions.
-![](https://kayasam.github.io/lpi101/assets/course-media/12fb835ad8955dbd.png)
+![](https://cours.kaya.ovh/lpi101/assets/course-media/12fb835ad8955dbd.png)
 
 ## Répertoires principaux et leur rôle
 

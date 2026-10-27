@@ -2,7 +2,7 @@
 
 > Durée estimée : 35 min
 
-> Chapitres associés : [C01. Donner des droits précis avec les ACL](https://kayasam.github.io/lpi101/complements/01-acl/)
+> Chapitres associés : [C01. Donner des droits précis avec les ACL](https://cours.kaya.ovh/lpi101/complements/01-acl/)
 
 ---
 

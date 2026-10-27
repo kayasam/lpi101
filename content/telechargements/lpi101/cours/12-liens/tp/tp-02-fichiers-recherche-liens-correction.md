@@ -4,7 +4,7 @@
 
 > Durée estimée : 75 min
 
-> Chapitres associés : [10. Créer, copier, déplacer et supprimer](https://kayasam.github.io/lpi101/lpi101/10-manipuler-fichiers/), [11. Utiliser les jokers et rechercher](https://kayasam.github.io/lpi101/lpi101/11-jokers-et-recherche/), [12. Comprendre les liens physiques et symboliques](https://kayasam.github.io/lpi101/lpi101/12-liens/)
+> Chapitres associés : [10. Créer, copier, déplacer et supprimer](https://cours.kaya.ovh/lpi101/lpi101/10-manipuler-fichiers/), [11. Utiliser les jokers et rechercher](https://cours.kaya.ovh/lpi101/lpi101/11-jokers-et-recherche/), [12. Comprendre les liens physiques et symboliques](https://cours.kaya.ovh/lpi101/lpi101/12-liens/)
 
 ---
 

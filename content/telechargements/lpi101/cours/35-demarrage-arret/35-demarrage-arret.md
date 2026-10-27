@@ -16,7 +16,7 @@ Il remplace les anciens systèmes comme **SysVinit** et permet de contrôler fin
 
 ---
 
-![Les étapes d’un démarrage Debian courant : UEFI, GRUB, noyau et systemd.](https://kayasam.github.io/lpi101/assets/course-media/4867440117dde9d6.svg)
+![Les étapes d’un démarrage Debian courant : UEFI, GRUB, noyau et systemd.](https://cours.kaya.ovh/lpi101/assets/course-media/4867440117dde9d6.svg)
 
 ## Commandes de base
 

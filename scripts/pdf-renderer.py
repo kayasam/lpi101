@@ -118,7 +118,7 @@ def markdown_html(body):
 
 def local_image(src):
     parsed = urlsplit(src)
-    if parsed.netloc and parsed.netloc != 'kayasam.github.io':
+    if parsed.netloc and parsed.netloc != urlsplit(BASE).netloc:
         raise ValueError('Image externe non intégrée au cours : ' + src)
     path = unquote(parsed.path)
     prefix = urlsplit(BASE).path.rstrip('/') + '/'

@@ -2,8 +2,8 @@
 title: "20. Lire et modifier les permissions"
 ---
 
-<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="lpi101/20-permissions"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://kayasam.github.io/lpi101/lpi101/20-permissions/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
-</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://kayasam.github.io/lpi101/telechargements/lpi101/cours/20-permissions/20-permissions.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
+<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="lpi101/20-permissions"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://cours.kaya.ovh/lpi101/lpi101/20-permissions/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
+</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://cours.kaya.ovh/lpi101/telechargements/lpi101/cours/20-permissions/20-permissions.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
 
 > [!note] Objectif
 > Comprendre propriétaire, groupe et autres, puis attribuer des droits adaptés.
@@ -69,7 +69,7 @@ rwx------  → le propriétaire a tous les droits
 rw-r--r--  → lecture/écriture pour le propriétaire, lecture seule pour les autres
 rwxr-xr-x  → fichier exécutable pour tout le monde
 ```
-![Les permissions du propriétaire, du groupe et des autres ; sens de r, w et x.](https://kayasam.github.io/lpi101/assets/course-media/f4eab24d64f0a786.svg)
+![Les permissions du propriétaire, du groupe et des autres ; sens de r, w et x.](https://cours.kaya.ovh/lpi101/assets/course-media/f4eab24d64f0a786.svg)
 
 ---
 

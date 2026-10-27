@@ -2,7 +2,7 @@
 
 > Durée estimée : 50 min
 
-> Chapitres associés : [13. Archiver et compresser](https://kayasam.github.io/lpi101/lpi101/13-archives-compression/), [14. Variables, environnement et historique](https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/)
+> Chapitres associés : [13. Archiver et compresser](https://cours.kaya.ovh/lpi101/lpi101/13-archives-compression/), [14. Variables, environnement et historique](https://cours.kaya.ovh/lpi101/lpi101/14-environnement-shell/)
 
 ---
 
@@ -54,4 +54,4 @@ printf 'Paramètre de test\n' > source/.reglage
 **C2.** Pourquoi une archive conservée uniquement sur le même disque n’est-elle pas une sauvegarde suffisante ?
 
 
-[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/tp-corrigev2)
+[Afficher les corrections](https://cours.kaya.ovh/lpi101/lpi101/14-environnement-shell/tp-corrigev2)

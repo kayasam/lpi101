@@ -2,7 +2,7 @@
 
 > Durée estimée : 45 min
 
-> Chapitres associés : [C02. Comprendre et manipuler LVM](https://kayasam.github.io/lpi101/complements/02-lvm/)
+> Chapitres associés : [C02. Comprendre et manipuler LVM](https://cours.kaya.ovh/lpi101/complements/02-lvm/)
 
 ---
 

@@ -1,6 +1,6 @@
 # Linux — Initiation et préparation LPI 101
 
-Site public : https://kayasam.github.io/lpi101/
+Site (accès stagiaires) : https://cours.kaya.ovh/lpi101/
 
 Un dossier par chapitre (`cours/01-comprendre-gnu-linux/01-comprendre-gnu-linux.md`), avec les TP dans le sous-dossier `tp/` du chapitre de déclenchement. La même organisation est conservée dans les ZIP Obsidian.
 

@@ -2,7 +2,7 @@
 
 > Durée estimée : 50 min
 
-> Chapitres associés : [30. Installer et gérer les paquets Debian](https://kayasam.github.io/lpi101/lpi101/30-paquets-debian/), [31. Reconnaître RPM, DNF, YUM et Zypper](https://kayasam.github.io/lpi101/lpi101/31-paquets-rpm/), [32. Comprendre les bibliothèques partagées](https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/)
+> Chapitres associés : [30. Installer et gérer les paquets Debian](https://cours.kaya.ovh/lpi101/lpi101/30-paquets-debian/), [31. Reconnaître RPM, DNF, YUM et Zypper](https://cours.kaya.ovh/lpi101/lpi101/31-paquets-rpm/), [32. Comprendre les bibliothèques partagées](https://cours.kaya.ovh/lpi101/lpi101/32-bibliotheques/)
 
 ---
 

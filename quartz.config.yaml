@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: fr-FR
-  baseUrl: kayasam.github.io/lpi101
+  baseUrl: cours.kaya.ovh/lpi101
   ignorePatterns:
     - telechargements/**
     - private

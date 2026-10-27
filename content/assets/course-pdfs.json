@@ -5,7 +5,7 @@
     {
       "key": "lpi101/01-comprendre-gnu-linux",
       "title": "01. Comprendre GNU/Linux et le logiciel libre",
-      "href": "https://kayasam.github.io/lpi101/lpi101/01-comprendre-gnu-linux/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/01-comprendre-gnu-linux/",
       "download": "telechargements/lpi101/cours/01-comprendre-gnu-linux/01-comprendre-gnu-linux.md",
       "sourceSha256": "86863340e970e340001f21dd9d1405f225bc640b347d8fbb1d0b85ac585dcf95",
       "startPage": 3
@@ -13,7 +13,7 @@
     {
       "key": "lpi101/02-distributions",
       "title": "02. Choisir et reconnaître une distribution Linux",
-      "href": "https://kayasam.github.io/lpi101/lpi101/02-distributions/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/02-distributions/",
       "download": "telechargements/lpi101/cours/02-distributions/02-distributions.md",
       "sourceSha256": "fd74dbdf6da0d9396b3b2b0db705e2838098561a8610f31588fd0040c4e8a37c",
       "startPage": 6
@@ -21,15 +21,15 @@
     {
       "key": "lpi101/03-architecture-linux",
       "title": "03. Comprendre les composants du système",
-      "href": "https://kayasam.github.io/lpi101/lpi101/03-architecture-linux/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/03-architecture-linux/",
       "download": "telechargements/lpi101/cours/03-architecture-linux/03-architecture-linux.md",
-      "sourceSha256": "4c798b876f3bdbfd2a727757e988035ee64d3612cb671b10af834a704e678e77",
+      "sourceSha256": "373f6fb460de500781dbc4ce07fe48f4577a6e61bc4c3e224262a07add95b91e",
       "startPage": 8
     },
     {
       "key": "lpi101/04-preparer-installation",
       "title": "04. Préparer une installation Linux",
-      "href": "https://kayasam.github.io/lpi101/lpi101/04-preparer-installation/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/04-preparer-installation/",
       "download": "telechargements/lpi101/cours/04-preparer-installation/04-preparer-installation.md",
       "sourceSha256": "05038e8a6fe3e8a28a55b148fba827a48746e401e43d47e3b99e21cf5458511a",
       "startPage": 11
@@ -37,15 +37,15 @@
     {
       "key": "lpi101/05-installation-machine-virtuelle",
       "title": "05. Installer Debian dans une machine virtuelle",
-      "href": "https://kayasam.github.io/lpi101/lpi101/05-installation-machine-virtuelle/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/05-installation-machine-virtuelle/",
       "download": "telechargements/lpi101/cours/05-installation-machine-virtuelle/05-installation-machine-virtuelle.md",
-      "sourceSha256": "fb850a151893b0064353d0eaa66e3454678661daf83ab9ba0219c594b6e850d3",
+      "sourceSha256": "17a4024a7d04195b4b982fb3ef1a14b0bab2480828303065bae42c91a8e2c60b",
       "startPage": 14
     },
     {
       "key": "lpi101/06-acceder-et-configurer",
       "title": "06. Accéder à la VM et préparer sa session",
-      "href": "https://kayasam.github.io/lpi101/lpi101/06-acceder-et-configurer/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/06-acceder-et-configurer/",
       "download": "telechargements/lpi101/cours/06-acceder-et-configurer/06-acceder-et-configurer.md",
       "sourceSha256": "9ad510568f884b3f3b18751e0022a4ea2859054a94c896987cc101b31fbf77df",
       "startPage": 18
@@ -53,7 +53,7 @@
     {
       "key": "lpi101/07-premieres-commandes",
       "title": "07. Comprendre et utiliser une commande",
-      "href": "https://kayasam.github.io/lpi101/lpi101/07-premieres-commandes/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/07-premieres-commandes/",
       "download": "telechargements/lpi101/cours/07-premieres-commandes/07-premieres-commandes.md",
       "sourceSha256": "df963af1403405509310d7bc8fa403158d839f855a37b86a0507a30ad82e18a6",
       "startPage": 21
@@ -61,15 +61,15 @@
     {
       "key": "lpi101/08-chemins-et-navigation",
       "title": "08. Se déplacer et comprendre les chemins",
-      "href": "https://kayasam.github.io/lpi101/lpi101/08-chemins-et-navigation/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/08-chemins-et-navigation/",
       "download": "telechargements/lpi101/cours/08-chemins-et-navigation/08-chemins-et-navigation.md",
-      "sourceSha256": "045a0ea36571cdf66989905d6c68eb2a3d3acfbe7dfcdc19c51fee0126aadb1c",
+      "sourceSha256": "501050604c0a119a7554bf55143f350331bb7ef053cbb2fb4910aa4601e3eed8",
       "startPage": 23
     },
     {
       "key": "lpi101/09-lire-fichiers",
       "title": "09. Lire et identifier des fichiers",
-      "href": "https://kayasam.github.io/lpi101/lpi101/09-lire-fichiers/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/09-lire-fichiers/",
       "download": "telechargements/lpi101/cours/09-lire-fichiers/09-lire-fichiers.md",
       "sourceSha256": "c97c745566a418f817df848074079c84a98ef9261a19a589c530af4fda95d4d5",
       "startPage": 27
@@ -77,7 +77,7 @@
     {
       "key": "lpi101/10-manipuler-fichiers",
       "title": "10. Créer, copier, déplacer et supprimer",
-      "href": "https://kayasam.github.io/lpi101/lpi101/10-manipuler-fichiers/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/10-manipuler-fichiers/",
       "download": "telechargements/lpi101/cours/10-manipuler-fichiers/10-manipuler-fichiers.md",
       "sourceSha256": "792f4ff3c7d92b01a54ad25391e53df638c91581f7b75d506a00d677e7de5c3e",
       "startPage": 29
@@ -85,7 +85,7 @@
     {
       "key": "lpi101/11-jokers-et-recherche",
       "title": "11. Utiliser les jokers et rechercher",
-      "href": "https://kayasam.github.io/lpi101/lpi101/11-jokers-et-recherche/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/11-jokers-et-recherche/",
       "download": "telechargements/lpi101/cours/11-jokers-et-recherche/11-jokers-et-recherche.md",
       "sourceSha256": "d4945bd0f2a3b2554120bd1cb63af8c22699a47ce00088463e600495e0664333",
       "startPage": 32
@@ -93,15 +93,15 @@
     {
       "key": "lpi101/12-liens",
       "title": "12. Comprendre les liens physiques et symboliques",
-      "href": "https://kayasam.github.io/lpi101/lpi101/12-liens/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/12-liens/",
       "download": "telechargements/lpi101/cours/12-liens/12-liens.md",
-      "sourceSha256": "87da6ce7baaf6caeb3bd409f53009e3cc81f6de3d79c19714b66dec449a5d7f9",
+      "sourceSha256": "fb18fe8b3b57938434cfff6c59e66f43677ba5bc68ec06b221845352c6dcd559",
       "startPage": 35
     },
     {
       "key": "lpi101/13-archives-compression",
       "title": "13. Archiver et compresser",
-      "href": "https://kayasam.github.io/lpi101/lpi101/13-archives-compression/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/13-archives-compression/",
       "download": "telechargements/lpi101/cours/13-archives-compression/13-archives-compression.md",
       "sourceSha256": "fa1039fc2159ff23b5afd81a79c99f2d7e3365317205fae25b41b9d7cb84cbd7",
       "startPage": 38
@@ -109,7 +109,7 @@
     {
       "key": "lpi101/14-environnement-shell",
       "title": "14. Variables, environnement et historique",
-      "href": "https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/14-environnement-shell/",
       "download": "telechargements/lpi101/cours/14-environnement-shell/14-environnement-shell.md",
       "sourceSha256": "900b09e6f5ec17cbbbb2ff11619ed9453cf312fd0ae5c1ab04be79ac50e8248a",
       "startPage": 41
@@ -117,15 +117,15 @@
     {
       "key": "lpi101/15-flux-redirections",
       "title": "15. Flux, redirections et tubes",
-      "href": "https://kayasam.github.io/lpi101/lpi101/15-flux-redirections/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/15-flux-redirections/",
       "download": "telechargements/lpi101/cours/15-flux-redirections/15-flux-redirections.md",
-      "sourceSha256": "deeb2d2563217eee5f17d6bc9c2e30dc8ed6f4079b1287eadfe8903f11992d34",
+      "sourceSha256": "3a51ad5c1bbf4834042b40458d1aea481d193a02771df4739e19170b24d0f597",
       "startPage": 43
     },
     {
       "key": "lpi101/16-filtres-textuels",
       "title": "16. Filtrer et transformer du texte",
-      "href": "https://kayasam.github.io/lpi101/lpi101/16-filtres-textuels/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/16-filtres-textuels/",
       "download": "telechargements/lpi101/cours/16-filtres-textuels/16-filtres-textuels.md",
       "sourceSha256": "b3a5313dbf687f8fc9ed306e156a17ab5ba61e8118e9b23cbc6ffe531c031c1e",
       "startPage": 48
@@ -133,7 +133,7 @@
     {
       "key": "lpi101/17-expressions-regulieres",
       "title": "17. Rechercher avec les expressions régulières",
-      "href": "https://kayasam.github.io/lpi101/lpi101/17-expressions-regulieres/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/17-expressions-regulieres/",
       "download": "telechargements/lpi101/cours/17-expressions-regulieres/17-expressions-regulieres.md",
       "sourceSha256": "9cfa899e409bb3f0e14bfa822d0f90e46e41cdcd731112f7a92800a50b971e11",
       "startPage": 52
@@ -141,7 +141,7 @@
     {
       "key": "lpi101/18-editeurs-texte",
       "title": "18. Modifier un fichier avec nano et vi",
-      "href": "https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/18-editeurs-texte/",
       "download": "telechargements/lpi101/cours/18-editeurs-texte/18-editeurs-texte.md",
       "sourceSha256": "1406c8938f032bec10b7be143a642c94502378fa5bcd26623358fe87deb5eeb2",
       "startPage": 57
@@ -149,7 +149,7 @@
     {
       "key": "lpi101/19-utilisateurs-groupes",
       "title": "19. Utilisateurs, groupes et droits administrateur",
-      "href": "https://kayasam.github.io/lpi101/lpi101/19-utilisateurs-groupes/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/19-utilisateurs-groupes/",
       "download": "telechargements/lpi101/cours/19-utilisateurs-groupes/19-utilisateurs-groupes.md",
       "sourceSha256": "91c78ccf7bad6b91791f43cef2a1d7b39320538b85ac01669ec2b57f2a80ed96",
       "startPage": 62
@@ -157,15 +157,15 @@
     {
       "key": "lpi101/20-permissions",
       "title": "20. Lire et modifier les permissions",
-      "href": "https://kayasam.github.io/lpi101/lpi101/20-permissions/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/20-permissions/",
       "download": "telechargements/lpi101/cours/20-permissions/20-permissions.md",
-      "sourceSha256": "dba88a93e9c0da16b47a7a3d66473818564e34d0d12f8c569b3b51d151de007a",
+      "sourceSha256": "ad3663360f7ada197fab457522f43062f794bc1597a1267aec8772cf01d9205b",
       "startPage": 68
     },
     {
       "key": "lpi101/21-umask-bits-speciaux",
       "title": "21. Droits par défaut et bits spéciaux",
-      "href": "https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/21-umask-bits-speciaux/",
       "download": "telechargements/lpi101/cours/21-umask-bits-speciaux/21-umask-bits-speciaux.md",
       "sourceSha256": "a5842f7b9be919d08d583f3e255a635cea60250e39c0379db9b15b4554a982e7",
       "startPage": 73
@@ -173,15 +173,15 @@
     {
       "key": "lpi101/22-processus",
       "title": "22. Observer et contrôler les processus",
-      "href": "https://kayasam.github.io/lpi101/lpi101/22-processus/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/22-processus/",
       "download": "telechargements/lpi101/cours/22-processus/22-processus.md",
-      "sourceSha256": "1b98f5aeacc10f84852b8cbc73da767553197ba4cdada97107119450381cc273",
+      "sourceSha256": "a51dd4a41e4f95cb064597faad1e85e2cb8ae0535bb47a11de2910375fdeb9c2",
       "startPage": 76
     },
     {
       "key": "lpi101/23-priorites",
       "title": "23. Comprendre les priorités des processus",
-      "href": "https://kayasam.github.io/lpi101/lpi101/23-priorites/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/23-priorites/",
       "download": "telechargements/lpi101/cours/23-priorites/23-priorites.md",
       "sourceSha256": "fce19813657ebd1aba32c62b83160628736e25a3172969f4cfd914d37b88e012",
       "startPage": 81
@@ -189,15 +189,15 @@
     {
       "key": "lpi101/24-arborescence-fhs",
       "title": "24. Se repérer dans l’arborescence Linux",
-      "href": "https://kayasam.github.io/lpi101/lpi101/24-arborescence-fhs/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/24-arborescence-fhs/",
       "download": "telechargements/lpi101/cours/24-arborescence-fhs/24-arborescence-fhs.md",
-      "sourceSha256": "0973acc0bfc7020bfe78e127c5c704ae0fadec8d6bec59b9a891c70a993f1d26",
+      "sourceSha256": "153298910e960f7174b9d9a9f8635eea57d736ecd2af036b58c701767a63bf20",
       "startPage": 83
     },
     {
       "key": "lpi101/25-concevoir-partitionnement",
       "title": "25. Concevoir un partitionnement simple",
-      "href": "https://kayasam.github.io/lpi101/lpi101/25-concevoir-partitionnement/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/25-concevoir-partitionnement/",
       "download": "telechargements/lpi101/cours/25-concevoir-partitionnement/25-concevoir-partitionnement.md",
       "sourceSha256": "a511b1882d91f2bfa19030df4bde1b58ffcb175a69daf955e1aafdfafa206163",
       "startPage": 87
@@ -205,23 +205,23 @@
     {
       "key": "lpi101/26-partitions-formatage",
       "title": "26. Créer des partitions et des systèmes de fichiers",
-      "href": "https://kayasam.github.io/lpi101/lpi101/26-partitions-formatage/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/26-partitions-formatage/",
       "download": "telechargements/lpi101/cours/26-partitions-formatage/26-partitions-formatage.md",
-      "sourceSha256": "885c008d73472613baedd2f143a84cd0d68c8581ab18e126f435790e1b4199ce",
+      "sourceSha256": "4294cd82b4bffc4b4992d322c72c1f7cb83de7de66d835034ce8feec33d5dec5",
       "startPage": 89
     },
     {
       "key": "lpi101/27-montage-fstab",
       "title": "27. Monter un système de fichiers et utiliser fstab",
-      "href": "https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/27-montage-fstab/",
       "download": "telechargements/lpi101/cours/27-montage-fstab/27-montage-fstab.md",
-      "sourceSha256": "59b88e4f0529a671577bb685b2f36072aceb43d5ef248b30fec3cde80b9b5181",
+      "sourceSha256": "c35d75ec24a0d8f0a4c72859734f2e539ffedb1329062840992203600b8a39e5",
       "startPage": 94
     },
     {
       "key": "lpi101/28-espace-disque-inodes",
       "title": "28. Mesurer l’espace, la mémoire et les inodes",
-      "href": "https://kayasam.github.io/lpi101/lpi101/28-espace-disque-inodes/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/28-espace-disque-inodes/",
       "download": "telechargements/lpi101/cours/28-espace-disque-inodes/28-espace-disque-inodes.md",
       "sourceSha256": "693cc1fe6b44356d92ce93a4f3bcc13fce6488ad71cdda5f0474aeeee432bbbe",
       "startPage": 98
@@ -229,7 +229,7 @@
     {
       "key": "lpi101/29-integrite-maintenance",
       "title": "29. Vérifier et entretenir les systèmes de fichiers",
-      "href": "https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/29-integrite-maintenance/",
       "download": "telechargements/lpi101/cours/29-integrite-maintenance/29-integrite-maintenance.md",
       "sourceSha256": "fc67c13f9c72cc3de0ff10364ff96038b2f99bbe1f152d0c90aa3e45655ab3f4",
       "startPage": 101
@@ -237,7 +237,7 @@
     {
       "key": "lpi101/30-paquets-debian",
       "title": "30. Installer et gérer les paquets Debian",
-      "href": "https://kayasam.github.io/lpi101/lpi101/30-paquets-debian/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/30-paquets-debian/",
       "download": "telechargements/lpi101/cours/30-paquets-debian/30-paquets-debian.md",
       "sourceSha256": "b1aa2c68f31b2a73fd5a9eee7947fe75a150786508ef09d4a82af3e1f71d7dbf",
       "startPage": 104
@@ -245,7 +245,7 @@
     {
       "key": "lpi101/31-paquets-rpm",
       "title": "31. Reconnaître RPM, DNF, YUM et Zypper",
-      "href": "https://kayasam.github.io/lpi101/lpi101/31-paquets-rpm/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/31-paquets-rpm/",
       "download": "telechargements/lpi101/cours/31-paquets-rpm/31-paquets-rpm.md",
       "sourceSha256": "4cf6449cee092bbe7210ef7f96b8091bb457b90e07909ea69a4fb2391d791afa",
       "startPage": 108
@@ -253,7 +253,7 @@
     {
       "key": "lpi101/32-bibliotheques",
       "title": "32. Comprendre les bibliothèques partagées",
-      "href": "https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/32-bibliotheques/",
       "download": "telechargements/lpi101/cours/32-bibliotheques/32-bibliotheques.md",
       "sourceSha256": "4924971f6110a80b33943c720c92ef6cf0dae9c09cf7c4a2331020e6a3d521af",
       "startPage": 111
@@ -261,7 +261,7 @@
     {
       "key": "lpi101/33-materiel-modules",
       "title": "33. Identifier le matériel et les modules du noyau",
-      "href": "https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/33-materiel-modules/",
       "download": "telechargements/lpi101/cours/33-materiel-modules/33-materiel-modules.md",
       "sourceSha256": "494945f46447ff6dc6b2c8c4bccea3c8e711874033e484afe1dc544600ad9437",
       "startPage": 114
@@ -269,7 +269,7 @@
     {
       "key": "lpi101/34-evenements-materiels",
       "title": "34. Observer les événements matériels",
-      "href": "https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/34-evenements-materiels/",
       "download": "telechargements/lpi101/cours/34-evenements-materiels/34-evenements-materiels.md",
       "sourceSha256": "b66c3f9819d67d464f8866dab02429dbf565bdfaf83a4396d50e4aaf52a16542",
       "startPage": 119
@@ -277,15 +277,15 @@
     {
       "key": "lpi101/35-demarrage-arret",
       "title": "35. Démarrage, arrêt et cibles systemd",
-      "href": "https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/35-demarrage-arret/",
       "download": "telechargements/lpi101/cours/35-demarrage-arret/35-demarrage-arret.md",
-      "sourceSha256": "ed9f896fe2aaf4e44ada6199475c06296cac6a71c1af1b9639ba6a00f0464f05",
+      "sourceSha256": "29351f0766eec1c59fe6cc914e487a092bf574d074d236cc871f88cb5c0296c3",
       "startPage": 122
     },
     {
       "key": "lpi101/36-services",
       "title": "36. Gérer les services avec systemd",
-      "href": "https://kayasam.github.io/lpi101/lpi101/36-services/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/36-services/",
       "download": "telechargements/lpi101/cours/36-services/36-services.md",
       "sourceSha256": "b6acee992371ddb61bb92184caec23cd4218e6df1a0e578ab2f63a3f32976180",
       "startPage": 128
@@ -293,7 +293,7 @@
     {
       "key": "lpi101/37-journaux",
       "title": "37. Consulter les journaux et diagnostiquer",
-      "href": "https://kayasam.github.io/lpi101/lpi101/37-journaux/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/37-journaux/",
       "download": "telechargements/lpi101/cours/37-journaux/37-journaux.md",
       "sourceSha256": "1628293bddcf304d3b979d1d8d1f3aa397a6fd283704d4d9564f986fcb3a0547",
       "startPage": 132
@@ -301,7 +301,7 @@
     {
       "key": "lpi101/38-grub-recuperation",
       "title": "38. Comprendre GRUB et la récupération",
-      "href": "https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/38-grub-recuperation/",
       "download": "telechargements/lpi101/cours/38-grub-recuperation/38-grub-recuperation.md",
       "sourceSha256": "5c2f8f15c84d0967517aeb62d1a3ab7656e70e3f6cd54306b478ab744a5e0172",
       "startPage": 137
@@ -309,7 +309,7 @@
     {
       "key": "lpi101/39-ssh",
       "title": "39. Se connecter à distance avec SSH",
-      "href": "https://kayasam.github.io/lpi101/lpi101/39-ssh/",
+      "href": "https://cours.kaya.ovh/lpi101/lpi101/39-ssh/",
       "download": "telechargements/lpi101/cours/39-ssh/39-ssh.md",
       "sourceSha256": "dd84c06a8ca635cf16df5c987f822d7682943380c282357863cd9128f62ef16c",
       "startPage": 140
@@ -317,7 +317,7 @@
     {
       "key": "complements/01-acl",
       "title": "C01. Donner des droits précis avec les ACL",
-      "href": "https://kayasam.github.io/lpi101/complements/01-acl/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/01-acl/",
       "download": "telechargements/complements/complements/c01-acl/c01-acl.md",
       "sourceSha256": "f87bea970a4ffeef1383adebe14ccc7a6b0171c88c9cc3e9bd4908682f686fff",
       "startPage": 145
@@ -325,7 +325,7 @@
     {
       "key": "complements/02-lvm",
       "title": "C02. Comprendre et manipuler LVM",
-      "href": "https://kayasam.github.io/lpi101/complements/02-lvm/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/02-lvm/",
       "download": "telechargements/complements/complements/c02-lvm/c02-lvm.md",
       "sourceSha256": "30579da43f23debb26f2bb2a23f9dbed3712972e024398b25211d67499c87afe",
       "startPage": 148
@@ -333,7 +333,7 @@
     {
       "key": "complements/03-premiers-scripts",
       "title": "C03. Écrire un premier script Bash",
-      "href": "https://kayasam.github.io/lpi101/complements/03-premiers-scripts/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/03-premiers-scripts/",
       "download": "telechargements/complements/complements/c03-premiers-scripts/c03-premiers-scripts.md",
       "sourceSha256": "0d828f9fa22e5f62544136e978bb2bd27b528f2deb20d9d2fdd991ce42127f8b",
       "startPage": 152
@@ -341,7 +341,7 @@
     {
       "key": "complements/04-conditions-boucles",
       "title": "C04. Découvrir les conditions et les boucles",
-      "href": "https://kayasam.github.io/lpi101/complements/04-conditions-boucles/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/04-conditions-boucles/",
       "download": "telechargements/complements/complements/c04-conditions-boucles/c04-conditions-boucles.md",
       "sourceSha256": "5af0fa60c2f34e190c796c26755bfcc470d3d69bced976e1743dc3d1229acf83",
       "startPage": 154
@@ -349,7 +349,7 @@
     {
       "key": "complements/05-scripts-utilitaires",
       "title": "C05. Lire des scripts utilitaires",
-      "href": "https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/05-scripts-utilitaires/",
       "download": "telechargements/complements/complements/c05-scripts-utilitaires/c05-scripts-utilitaires.md",
       "sourceSha256": "fea5931cd5e7979490280be088df7c213d69e75c1f21e18a7e187de408fc7ff3",
       "startPage": 156
@@ -357,15 +357,15 @@
     {
       "key": "complements/06-wsl",
       "title": "C06. Découvrir Linux sous Windows avec WSL",
-      "href": "https://kayasam.github.io/lpi101/complements/06-wsl/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/06-wsl/",
       "download": "telechargements/complements/complements/c06-wsl/c06-wsl.md",
-      "sourceSha256": "83d0896ddbf9404607d684ef5501be9a9956dabe697509ce37351c81b6b5b243",
+      "sourceSha256": "b565c64bc98a8f17f5d14261765bc46f57efb7c1f2414d3028a771628dbc8d04",
       "startPage": 157
     },
     {
       "key": "complements/07-cloud-init",
       "title": "C07. Découvrir Cloud-init",
-      "href": "https://kayasam.github.io/lpi101/complements/07-cloud-init/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/07-cloud-init/",
       "download": "telechargements/complements/complements/c07-cloud-init/c07-cloud-init.md",
       "sourceSha256": "35cc66b63e3897125de1d23904f56b0ee7d0493d56fafc49081e22834514f334",
       "startPage": 162
@@ -373,7 +373,7 @@
     {
       "key": "complements/08-personnaliser-terminal",
       "title": "C08. Personnaliser son terminal",
-      "href": "https://kayasam.github.io/lpi101/complements/08-personnaliser-terminal/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/08-personnaliser-terminal/",
       "download": "telechargements/complements/complements/c08-personnaliser-terminal/c08-personnaliser-terminal.md",
       "sourceSha256": "1714f02aea4ddaa27ec646cc0cc64d30a58cbb05bd18a459de9dc733782a16e4",
       "startPage": 167
@@ -381,7 +381,7 @@
     {
       "key": "complements/09-reperes-certification",
       "title": "C09. Repères pour poursuivre la préparation LPI 101",
-      "href": "https://kayasam.github.io/lpi101/complements/09-reperes-certification/",
+      "href": "https://cours.kaya.ovh/lpi101/complements/09-reperes-certification/",
       "download": "telechargements/complements/complements/c09-reperes-certification/c09-reperes-certification.md",
       "sourceSha256": "6476b43e0de143e934babcd628d8e198acc7b24004ab33ea3d1ceaad6fe1b458",
       "startPage": 170

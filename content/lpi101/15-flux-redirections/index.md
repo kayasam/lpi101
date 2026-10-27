@@ -2,8 +2,8 @@
 title: "15. Flux, redirections et tubes"
 ---
 
-<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="lpi101/15-flux-redirections"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://kayasam.github.io/lpi101/lpi101/15-flux-redirections/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
-</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://kayasam.github.io/lpi101/telechargements/lpi101/cours/15-flux-redirections/15-flux-redirections.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
+<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="lpi101/15-flux-redirections"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://cours.kaya.ovh/lpi101/lpi101/15-flux-redirections/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
+</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://cours.kaya.ovh/lpi101/telechargements/lpi101/cours/15-flux-redirections/15-flux-redirections.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
 
 > [!note] Objectif
 > Relier des commandes et distinguer résultat normal et message d’erreur.
@@ -29,7 +29,7 @@ Comprendre et manipuler ces flux est essentiel pour combiner les commandes, auto
 | **stdout** | 1      | Sortie standard — résultat “normal” d’un programme      | `echo "OK" > fichier.txt`      |
 | **stderr** | 2      | Sortie d’erreur — messages d’erreur séparés du résultat | `ls /inexistant 2> erreur.log` |
 
-![Les trois flux standards et un tube : stdin 0 entre dans une commande ; stdout 1 et stderr 2 en sortent séparément. Le tube relie stdout à stdin.](https://kayasam.github.io/lpi101/assets/course-media/6203e91e1bfc5301.svg)
+![Les trois flux standards et un tube : stdin 0 entre dans une commande ; stdout 1 et stderr 2 en sortent séparément. Le tube relie stdout à stdin.](https://cours.kaya.ovh/lpi101/assets/course-media/6203e91e1bfc5301.svg)
 
 Le haut du schéma distingue les trois flux ; le bas montre comment le tube relie deux commandes.
 

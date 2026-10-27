@@ -13,7 +13,7 @@
 
 Sous Linux, tout est organisé dans une **arborescence unique** partant de la racine `/`.
 
-![Chemin absolu et chemin relatif vers le même répertoire.](https://kayasam.github.io/lpi101/assets/course-media/b02d089e0fd34249.svg)
+![Chemin absolu et chemin relatif vers le même répertoire.](https://cours.kaya.ovh/lpi101/assets/course-media/b02d089e0fd34249.svg)
 
 Les principales commandes de navigation sont :
 

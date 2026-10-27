@@ -2,7 +2,7 @@
 
 > Durée estimée : 70 min
 
-> Chapitres associés : [33. Identifier le matériel et les modules du noyau](https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/), [34. Observer les événements matériels](https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/), [35. Démarrage, arrêt et cibles systemd](https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/), [36. Gérer les services avec systemd](https://kayasam.github.io/lpi101/lpi101/36-services/), [37. Consulter les journaux et diagnostiquer](https://kayasam.github.io/lpi101/lpi101/37-journaux/), [38. Comprendre GRUB et la récupération](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/)
+> Chapitres associés : [33. Identifier le matériel et les modules du noyau](https://cours.kaya.ovh/lpi101/lpi101/33-materiel-modules/), [34. Observer les événements matériels](https://cours.kaya.ovh/lpi101/lpi101/34-evenements-materiels/), [35. Démarrage, arrêt et cibles systemd](https://cours.kaya.ovh/lpi101/lpi101/35-demarrage-arret/), [36. Gérer les services avec systemd](https://cours.kaya.ovh/lpi101/lpi101/36-services/), [37. Consulter les journaux et diagnostiquer](https://cours.kaya.ovh/lpi101/lpi101/37-journaux/), [38. Comprendre GRUB et la récupération](https://cours.kaya.ovh/lpi101/lpi101/38-grub-recuperation/)
 
 ---
 

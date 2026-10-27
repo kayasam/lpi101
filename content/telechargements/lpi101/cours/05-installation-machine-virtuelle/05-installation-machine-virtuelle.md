@@ -103,7 +103,7 @@ L’**hôte** est l’ordinateur physique et son système ; l’**invité** est 
 
 Un hyperviseur de **type 1** s’exécute directement sur le matériel ; un **type 2**, comme VirtualBox dans ce cours, fonctionne au-dessus d’un système hôte. Hyper-V utilise une architecture de type 1 même sur un poste Windows.
 
-![DR02.Hyperviseur-Type](https://kayasam.github.io/lpi101/assets/course-media/dr02-hyperviseur-type.svg)
+![DR02.Hyperviseur-Type](https://cours.kaya.ovh/lpi101/assets/course-media/dr02-hyperviseur-type.svg)
 
 ## Instantané et clone
 
