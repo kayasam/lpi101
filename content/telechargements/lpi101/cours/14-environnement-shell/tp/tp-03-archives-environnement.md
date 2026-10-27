@@ -52,3 +52,6 @@ printf 'Paramètre de test\n' > source/.reglage
 **C1.** Dans ton terminal interactif, retrouve une commande précédente avec les flèches puis avec Ctrl+R. Affiche les dix dernières commandes.
 
 **C2.** Pourquoi une archive conservée uniquement sur le même disque n’est-elle pas une sauvegarde suffisante ?
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/tp-corrigev2)

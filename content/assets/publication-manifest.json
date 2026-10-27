@@ -82,7 +82,7 @@
       "key": "lpi101/14-environnement-shell",
       "title": "14. Variables, environnement et historique",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/15-flux-redirections",
@@ -313,9 +313,9 @@
       "correctionKey": "lpi101/14-environnement-shell/tp-corrigev2",
       "downloadStem": "14-environnement-shell",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/14-environnement-shell/tp/tp-03-archives-environnement.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/14-environnement-shell/tp/tp-03-archives-environnement-correction.md"
     },
     {
       "key": "lpi101/17-expressions-regulieres/tp",
@@ -419,7 +419,8 @@
   ],
   "corrections": [
     "lpi101/09-lire-fichiers/tp",
-    "lpi101/12-liens/tp"
+    "lpi101/12-liens/tp",
+    "lpi101/14-environnement-shell/tp"
   ],
   "tracks": [
     {

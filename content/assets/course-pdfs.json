@@ -1,6 +1,6 @@
 {
   "pdf": "telechargements/cours-complets.pdf",
-  "pdfSha256": "8ec2ce2fcfd310499ddc04d510446d52214c4ac53fcf3c1230d95a374dd1e253",
+  "pdfSha256": "d570bd27a8a0557ebb348f9cf3d0208c354afd484560026120d6706d652543ae",
   "chapters": [
     {
       "key": "lpi101/01-comprendre-gnu-linux",
@@ -95,7 +95,7 @@
       "title": "12. Comprendre les liens physiques et symboliques",
       "href": "https://kayasam.github.io/lpi101/lpi101/12-liens/",
       "download": "telechargements/lpi101/cours/12-liens/12-liens.md",
-      "sourceSha256": "858ee7d0cda12b03815385813b9a7abfa33ffd637f2c2fc2dc00871788ce5a03",
+      "sourceSha256": "87da6ce7baaf6caeb3bd409f53009e3cc81f6de3d79c19714b66dec449a5d7f9",
       "startPage": 35
     },
     {
@@ -104,7 +104,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/13-archives-compression/",
       "download": "telechargements/lpi101/cours/13-archives-compression/13-archives-compression.md",
       "sourceSha256": "fa1039fc2159ff23b5afd81a79c99f2d7e3365317205fae25b41b9d7cb84cbd7",
-      "startPage": 37
+      "startPage": 38
     },
     {
       "key": "lpi101/14-environnement-shell",
@@ -112,15 +112,15 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/",
       "download": "telechargements/lpi101/cours/14-environnement-shell/14-environnement-shell.md",
       "sourceSha256": "900b09e6f5ec17cbbbb2ff11619ed9453cf312fd0ae5c1ab04be79ac50e8248a",
-      "startPage": 40
+      "startPage": 41
     },
     {
       "key": "lpi101/15-flux-redirections",
       "title": "15. Flux, redirections et tubes",
       "href": "https://kayasam.github.io/lpi101/lpi101/15-flux-redirections/",
       "download": "telechargements/lpi101/cours/15-flux-redirections/15-flux-redirections.md",
-      "sourceSha256": "d86c77ba69d03fc4daf413b621582ab989e4fb8d797ebeb309fd3112cb1a32d8",
-      "startPage": 42
+      "sourceSha256": "deeb2d2563217eee5f17d6bc9c2e30dc8ed6f4079b1287eadfe8903f11992d34",
+      "startPage": 43
     },
     {
       "key": "lpi101/16-filtres-textuels",
@@ -128,7 +128,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/16-filtres-textuels/",
       "download": "telechargements/lpi101/cours/16-filtres-textuels/16-filtres-textuels.md",
       "sourceSha256": "b3a5313dbf687f8fc9ed306e156a17ab5ba61e8118e9b23cbc6ffe531c031c1e",
-      "startPage": 46
+      "startPage": 48
     },
     {
       "key": "lpi101/17-expressions-regulieres",
@@ -136,7 +136,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/17-expressions-regulieres/",
       "download": "telechargements/lpi101/cours/17-expressions-regulieres/17-expressions-regulieres.md",
       "sourceSha256": "9cfa899e409bb3f0e14bfa822d0f90e46e41cdcd731112f7a92800a50b971e11",
-      "startPage": 50
+      "startPage": 52
     },
     {
       "key": "lpi101/18-editeurs-texte",
@@ -144,7 +144,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/",
       "download": "telechargements/lpi101/cours/18-editeurs-texte/18-editeurs-texte.md",
       "sourceSha256": "1406c8938f032bec10b7be143a642c94502378fa5bcd26623358fe87deb5eeb2",
-      "startPage": 55
+      "startPage": 57
     },
     {
       "key": "lpi101/19-utilisateurs-groupes",
@@ -152,7 +152,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/19-utilisateurs-groupes/",
       "download": "telechargements/lpi101/cours/19-utilisateurs-groupes/19-utilisateurs-groupes.md",
       "sourceSha256": "91c78ccf7bad6b91791f43cef2a1d7b39320538b85ac01669ec2b57f2a80ed96",
-      "startPage": 60
+      "startPage": 62
     },
     {
       "key": "lpi101/20-permissions",
@@ -160,7 +160,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/20-permissions/",
       "download": "telechargements/lpi101/cours/20-permissions/20-permissions.md",
       "sourceSha256": "dba88a93e9c0da16b47a7a3d66473818564e34d0d12f8c569b3b51d151de007a",
-      "startPage": 66
+      "startPage": 68
     },
     {
       "key": "lpi101/21-umask-bits-speciaux",
@@ -168,7 +168,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/",
       "download": "telechargements/lpi101/cours/21-umask-bits-speciaux/21-umask-bits-speciaux.md",
       "sourceSha256": "a5842f7b9be919d08d583f3e255a635cea60250e39c0379db9b15b4554a982e7",
-      "startPage": 71
+      "startPage": 73
     },
     {
       "key": "lpi101/22-processus",
@@ -176,7 +176,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/22-processus/",
       "download": "telechargements/lpi101/cours/22-processus/22-processus.md",
       "sourceSha256": "1b98f5aeacc10f84852b8cbc73da767553197ba4cdada97107119450381cc273",
-      "startPage": 74
+      "startPage": 76
     },
     {
       "key": "lpi101/23-priorites",
@@ -184,7 +184,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/23-priorites/",
       "download": "telechargements/lpi101/cours/23-priorites/23-priorites.md",
       "sourceSha256": "fce19813657ebd1aba32c62b83160628736e25a3172969f4cfd914d37b88e012",
-      "startPage": 79
+      "startPage": 81
     },
     {
       "key": "lpi101/24-arborescence-fhs",
@@ -192,7 +192,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/24-arborescence-fhs/",
       "download": "telechargements/lpi101/cours/24-arborescence-fhs/24-arborescence-fhs.md",
       "sourceSha256": "0973acc0bfc7020bfe78e127c5c704ae0fadec8d6bec59b9a891c70a993f1d26",
-      "startPage": 81
+      "startPage": 83
     },
     {
       "key": "lpi101/25-concevoir-partitionnement",
@@ -200,7 +200,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/25-concevoir-partitionnement/",
       "download": "telechargements/lpi101/cours/25-concevoir-partitionnement/25-concevoir-partitionnement.md",
       "sourceSha256": "a511b1882d91f2bfa19030df4bde1b58ffcb175a69daf955e1aafdfafa206163",
-      "startPage": 85
+      "startPage": 87
     },
     {
       "key": "lpi101/26-partitions-formatage",
@@ -208,7 +208,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/26-partitions-formatage/",
       "download": "telechargements/lpi101/cours/26-partitions-formatage/26-partitions-formatage.md",
       "sourceSha256": "885c008d73472613baedd2f143a84cd0d68c8581ab18e126f435790e1b4199ce",
-      "startPage": 87
+      "startPage": 89
     },
     {
       "key": "lpi101/27-montage-fstab",
@@ -216,7 +216,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/",
       "download": "telechargements/lpi101/cours/27-montage-fstab/27-montage-fstab.md",
       "sourceSha256": "59b88e4f0529a671577bb685b2f36072aceb43d5ef248b30fec3cde80b9b5181",
-      "startPage": 92
+      "startPage": 94
     },
     {
       "key": "lpi101/28-espace-disque-inodes",
@@ -224,7 +224,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/28-espace-disque-inodes/",
       "download": "telechargements/lpi101/cours/28-espace-disque-inodes/28-espace-disque-inodes.md",
       "sourceSha256": "693cc1fe6b44356d92ce93a4f3bcc13fce6488ad71cdda5f0474aeeee432bbbe",
-      "startPage": 96
+      "startPage": 98
     },
     {
       "key": "lpi101/29-integrite-maintenance",
@@ -232,7 +232,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/",
       "download": "telechargements/lpi101/cours/29-integrite-maintenance/29-integrite-maintenance.md",
       "sourceSha256": "fc67c13f9c72cc3de0ff10364ff96038b2f99bbe1f152d0c90aa3e45655ab3f4",
-      "startPage": 99
+      "startPage": 101
     },
     {
       "key": "lpi101/30-paquets-debian",
@@ -240,7 +240,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/30-paquets-debian/",
       "download": "telechargements/lpi101/cours/30-paquets-debian/30-paquets-debian.md",
       "sourceSha256": "b1aa2c68f31b2a73fd5a9eee7947fe75a150786508ef09d4a82af3e1f71d7dbf",
-      "startPage": 102
+      "startPage": 104
     },
     {
       "key": "lpi101/31-paquets-rpm",
@@ -248,7 +248,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/31-paquets-rpm/",
       "download": "telechargements/lpi101/cours/31-paquets-rpm/31-paquets-rpm.md",
       "sourceSha256": "4cf6449cee092bbe7210ef7f96b8091bb457b90e07909ea69a4fb2391d791afa",
-      "startPage": 106
+      "startPage": 108
     },
     {
       "key": "lpi101/32-bibliotheques",
@@ -256,7 +256,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/",
       "download": "telechargements/lpi101/cours/32-bibliotheques/32-bibliotheques.md",
       "sourceSha256": "4924971f6110a80b33943c720c92ef6cf0dae9c09cf7c4a2331020e6a3d521af",
-      "startPage": 109
+      "startPage": 111
     },
     {
       "key": "lpi101/33-materiel-modules",
@@ -264,7 +264,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/",
       "download": "telechargements/lpi101/cours/33-materiel-modules/33-materiel-modules.md",
       "sourceSha256": "494945f46447ff6dc6b2c8c4bccea3c8e711874033e484afe1dc544600ad9437",
-      "startPage": 112
+      "startPage": 114
     },
     {
       "key": "lpi101/34-evenements-materiels",
@@ -272,7 +272,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/",
       "download": "telechargements/lpi101/cours/34-evenements-materiels/34-evenements-materiels.md",
       "sourceSha256": "b66c3f9819d67d464f8866dab02429dbf565bdfaf83a4396d50e4aaf52a16542",
-      "startPage": 117
+      "startPage": 119
     },
     {
       "key": "lpi101/35-demarrage-arret",
@@ -280,7 +280,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/",
       "download": "telechargements/lpi101/cours/35-demarrage-arret/35-demarrage-arret.md",
       "sourceSha256": "ed9f896fe2aaf4e44ada6199475c06296cac6a71c1af1b9639ba6a00f0464f05",
-      "startPage": 120
+      "startPage": 122
     },
     {
       "key": "lpi101/36-services",
@@ -288,7 +288,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/36-services/",
       "download": "telechargements/lpi101/cours/36-services/36-services.md",
       "sourceSha256": "b6acee992371ddb61bb92184caec23cd4218e6df1a0e578ab2f63a3f32976180",
-      "startPage": 126
+      "startPage": 128
     },
     {
       "key": "lpi101/37-journaux",
@@ -296,7 +296,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/37-journaux/",
       "download": "telechargements/lpi101/cours/37-journaux/37-journaux.md",
       "sourceSha256": "1628293bddcf304d3b979d1d8d1f3aa397a6fd283704d4d9564f986fcb3a0547",
-      "startPage": 130
+      "startPage": 132
     },
     {
       "key": "lpi101/38-grub-recuperation",
@@ -304,7 +304,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/",
       "download": "telechargements/lpi101/cours/38-grub-recuperation/38-grub-recuperation.md",
       "sourceSha256": "5c2f8f15c84d0967517aeb62d1a3ab7656e70e3f6cd54306b478ab744a5e0172",
-      "startPage": 135
+      "startPage": 137
     },
     {
       "key": "lpi101/39-ssh",
@@ -312,7 +312,7 @@
       "href": "https://kayasam.github.io/lpi101/lpi101/39-ssh/",
       "download": "telechargements/lpi101/cours/39-ssh/39-ssh.md",
       "sourceSha256": "dd84c06a8ca635cf16df5c987f822d7682943380c282357863cd9128f62ef16c",
-      "startPage": 138
+      "startPage": 140
     },
     {
       "key": "complements/01-acl",
@@ -320,7 +320,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/01-acl/",
       "download": "telechargements/complements/complements/c01-acl/c01-acl.md",
       "sourceSha256": "f87bea970a4ffeef1383adebe14ccc7a6b0171c88c9cc3e9bd4908682f686fff",
-      "startPage": 143
+      "startPage": 145
     },
     {
       "key": "complements/02-lvm",
@@ -328,7 +328,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/02-lvm/",
       "download": "telechargements/complements/complements/c02-lvm/c02-lvm.md",
       "sourceSha256": "30579da43f23debb26f2bb2a23f9dbed3712972e024398b25211d67499c87afe",
-      "startPage": 146
+      "startPage": 148
     },
     {
       "key": "complements/03-premiers-scripts",
@@ -336,7 +336,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/03-premiers-scripts/",
       "download": "telechargements/complements/complements/c03-premiers-scripts/c03-premiers-scripts.md",
       "sourceSha256": "0d828f9fa22e5f62544136e978bb2bd27b528f2deb20d9d2fdd991ce42127f8b",
-      "startPage": 150
+      "startPage": 152
     },
     {
       "key": "complements/04-conditions-boucles",
@@ -344,7 +344,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/04-conditions-boucles/",
       "download": "telechargements/complements/complements/c04-conditions-boucles/c04-conditions-boucles.md",
       "sourceSha256": "5af0fa60c2f34e190c796c26755bfcc470d3d69bced976e1743dc3d1229acf83",
-      "startPage": 152
+      "startPage": 154
     },
     {
       "key": "complements/05-scripts-utilitaires",
@@ -352,7 +352,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/",
       "download": "telechargements/complements/complements/c05-scripts-utilitaires/c05-scripts-utilitaires.md",
       "sourceSha256": "fea5931cd5e7979490280be088df7c213d69e75c1f21e18a7e187de408fc7ff3",
-      "startPage": 154
+      "startPage": 156
     },
     {
       "key": "complements/06-wsl",
@@ -360,7 +360,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/06-wsl/",
       "download": "telechargements/complements/complements/c06-wsl/c06-wsl.md",
       "sourceSha256": "83d0896ddbf9404607d684ef5501be9a9956dabe697509ce37351c81b6b5b243",
-      "startPage": 155
+      "startPage": 157
     },
     {
       "key": "complements/07-cloud-init",
@@ -368,7 +368,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/07-cloud-init/",
       "download": "telechargements/complements/complements/c07-cloud-init/c07-cloud-init.md",
       "sourceSha256": "35cc66b63e3897125de1d23904f56b0ee7d0493d56fafc49081e22834514f334",
-      "startPage": 160
+      "startPage": 162
     },
     {
       "key": "complements/08-personnaliser-terminal",
@@ -376,7 +376,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/08-personnaliser-terminal/",
       "download": "telechargements/complements/complements/c08-personnaliser-terminal/c08-personnaliser-terminal.md",
       "sourceSha256": "1714f02aea4ddaa27ec646cc0cc64d30a58cbb05bd18a459de9dc733782a16e4",
-      "startPage": 165
+      "startPage": 167
     },
     {
       "key": "complements/09-reperes-certification",
@@ -384,7 +384,7 @@
       "href": "https://kayasam.github.io/lpi101/complements/09-reperes-certification/",
       "download": "telechargements/complements/complements/c09-reperes-certification/c09-reperes-certification.md",
       "sourceSha256": "6476b43e0de143e934babcd628d8e198acc7b24004ab33ea3d1ceaad6fe1b458",
-      "startPage": 168
+      "startPage": 170
     }
   ]
 }
