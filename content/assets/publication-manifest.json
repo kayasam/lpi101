@@ -106,7 +106,7 @@
       "key": "lpi101/18-editeurs-texte",
       "title": "18. Modifier un fichier avec nano et vi",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/19-utilisateurs-groupes",
@@ -331,9 +331,9 @@
       "correctionKey": "lpi101/18-editeurs-texte/tp-corrigev2",
       "downloadStem": "18-editeurs-texte",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/18-editeurs-texte/tp/tp-05-editeurs.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/18-editeurs-texte/tp/tp-05-editeurs-correction.md"
     },
     {
       "key": "lpi101/21-umask-bits-speciaux/tp",
@@ -420,7 +420,8 @@
   "corrections": [
     "lpi101/09-lire-fichiers/tp",
     "lpi101/12-liens/tp",
-    "lpi101/14-environnement-shell/tp"
+    "lpi101/14-environnement-shell/tp",
+    "lpi101/18-editeurs-texte/tp"
   ],
   "tracks": [
     {

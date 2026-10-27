@@ -49,3 +49,6 @@ printf 'service=demo\nport=8080\nmode=test\n' > application.conf
 ## Partie C — Vérifier et choisir (5 min)
 
 **C1.** Affiche le fichier final et choisis nano comme éditeur pour cette session. Ces variables modifient-elles le fichier de configuration ?
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/tp-corrigev2)
