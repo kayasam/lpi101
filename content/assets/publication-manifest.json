@@ -70,7 +70,7 @@
       "key": "lpi101/12-liens",
       "title": "12. Comprendre les liens physiques et symboliques",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/13-archives-compression",
@@ -304,9 +304,9 @@
       "correctionKey": "lpi101/12-liens/tp-corrigev2",
       "downloadStem": "12-liens",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/12-liens/tp/tp-02-fichiers-recherche-liens.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/12-liens/tp/tp-02-fichiers-recherche-liens-correction.md"
     },
     {
       "key": "lpi101/14-environnement-shell/tp",
@@ -418,7 +418,8 @@
     }
   ],
   "corrections": [
-    "lpi101/09-lire-fichiers/tp"
+    "lpi101/09-lire-fichiers/tp",
+    "lpi101/12-liens/tp"
   ],
   "tracks": [
     {

@@ -29,10 +29,6 @@ Comprendre et manipuler ces flux est essentiel pour combiner les commandes, auto
 | **stdout** | 1      | Sortie standard — résultat “normal” d’un programme      | `echo "OK" > fichier.txt`      |
 | **stderr** | 2      | Sortie d’erreur — messages d’erreur séparés du résultat | `ls /inexistant 2> erreur.log` |
 
-![Les trois flux standards et un tube : stdin 0 entre dans une commande ; stdout 1 et stderr 2 en sortent séparément. Le tube relie stdout à stdin.](https://kayasam.github.io/lpi101/assets/course-media/6203e91e1bfc5301.svg)
-
-Le haut du schéma distingue les trois flux ; le bas montre comment le tube relie deux commandes.
-
 ---
 
 ## Redirections de base

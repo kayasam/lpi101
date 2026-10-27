@@ -51,3 +51,6 @@ Les manipulations restent dans `~/lpi101-tp/tp02`. Les parties s’enchaînent :
 **C3.** Supprime seulement `notes.txt`. Vérifie que le lien physique reste lisible et observe le lien symbolique.
 
 **C4.** Conserve les fichiers et fais un bilan : quelle opération utiliser pour une copie indépendante, un raccourci de dossier et un deuxième nom du même fichier ?
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/12-liens/tp-corrigev2)
