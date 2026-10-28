@@ -100,7 +100,8 @@
         {
           "slug": "20-permissions",
           "course": "cours/20-permissions/20-permissions.md",
-          "tp": "cours/20-permissions/tp/tp-07-permissions.md"
+          "tp": "cours/20-permissions/tp/tp-07-permissions.md",
+          "correction": "cours/20-permissions/tp/tp-07-permissions-correction.md"
         },
         {
           "slug": "21-umask-bits-speciaux",

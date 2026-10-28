@@ -118,7 +118,7 @@
       "key": "lpi101/20-permissions",
       "title": "20. Lire et modifier les permissions",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/21-umask-bits-speciaux",
@@ -340,9 +340,9 @@
       "correctionKey": "lpi101/20-permissions/tp-corrigev2",
       "downloadStem": "20-permissions",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/20-permissions/tp/tp-07-permissions.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/20-permissions/tp/tp-07-permissions-correction.md"
     },
     {
       "key": "lpi101/21-umask-bits-speciaux/tp",
@@ -430,7 +430,8 @@
     "lpi101/09-lire-fichiers/tp",
     "lpi101/12-liens/tp",
     "lpi101/14-environnement-shell/tp",
-    "lpi101/18-editeurs-texte/tp"
+    "lpi101/18-editeurs-texte/tp",
+    "lpi101/20-permissions/tp"
   ],
   "tracks": [
     {

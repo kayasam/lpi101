@@ -43,3 +43,6 @@ Comprendre et manipuler les utilisateurs, groupes et permissions.
 **B7.** Crée un dossier `prive` avec les permissions `700`. Vérifie qu'un autre utilisateur n'y a pas accès.
 
 **Bonus.** Change le propriétaire de `notes.txt` vers `root` (avec `sudo`). Qu'est-ce que ça change pour toi ?
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/20-permissions/tp-corrigev2)
