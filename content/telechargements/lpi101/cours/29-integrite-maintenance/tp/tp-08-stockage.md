@@ -2,7 +2,7 @@
 
 > Durée estimée : 90 min
 
-> Chapitres associés : [24. Se repérer dans l’arborescence Linux](https://cours.kaya.ovh/lpi101/lpi101/24-arborescence-fhs/), [25. Concevoir un partitionnement simple](https://cours.kaya.ovh/lpi101/lpi101/25-concevoir-partitionnement/), [26. Créer des partitions et des systèmes de fichiers](https://cours.kaya.ovh/lpi101/lpi101/26-partitions-formatage/), [27. Monter un système de fichiers et utiliser fstab](https://cours.kaya.ovh/lpi101/lpi101/27-montage-fstab/), [28. Mesurer l’espace, la mémoire et les inodes](https://cours.kaya.ovh/lpi101/lpi101/28-espace-disque-inodes/), [29. Vérifier et entretenir les systèmes de fichiers](https://cours.kaya.ovh/lpi101/lpi101/29-integrite-maintenance/)
+> Chapitres associés : [24. Se repérer dans l’arborescence Linux](https://kayasam.github.io/lpi101/lpi101/24-arborescence-fhs/), [25. Concevoir un partitionnement simple](https://kayasam.github.io/lpi101/lpi101/25-concevoir-partitionnement/), [26. Créer des partitions et des systèmes de fichiers](https://kayasam.github.io/lpi101/lpi101/26-partitions-formatage/), [27. Monter un système de fichiers et utiliser fstab](https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/), [28. Mesurer l’espace, la mémoire et les inodes](https://kayasam.github.io/lpi101/lpi101/28-espace-disque-inodes/), [29. Vérifier et entretenir les systèmes de fichiers](https://kayasam.github.io/lpi101/lpi101/29-integrite-maintenance/)
 
 ---
 

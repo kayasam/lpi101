@@ -2,7 +2,7 @@
 
 > Durée estimée : 45 min
 
-> Chapitres associés : [C03. Écrire un premier script Bash](https://cours.kaya.ovh/lpi101/complements/03-premiers-scripts/), [C04. Découvrir les conditions et les boucles](https://cours.kaya.ovh/lpi101/complements/04-conditions-boucles/), [C05. Lire des scripts utilitaires](https://cours.kaya.ovh/lpi101/complements/05-scripts-utilitaires/)
+> Chapitres associés : [C03. Écrire un premier script Bash](https://kayasam.github.io/lpi101/complements/03-premiers-scripts/), [C04. Découvrir les conditions et les boucles](https://kayasam.github.io/lpi101/complements/04-conditions-boucles/), [C05. Lire des scripts utilitaires](https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/)
 
 ---
 

@@ -4,7 +4,7 @@
 
 > Durée estimée : 35 min
 
-> Chapitres associés : [18. Modifier un fichier avec nano et vi](https://cours.kaya.ovh/lpi101/lpi101/18-editeurs-texte/)
+> Chapitres associés : [18. Modifier un fichier avec nano et vi](https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/)
 
 ---
 

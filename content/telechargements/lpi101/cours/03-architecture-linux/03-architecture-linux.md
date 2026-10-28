@@ -60,7 +60,7 @@ Anciennement, ce rôle était assuré par **SysVinit**.
 
 ## Lire le système comme un ensemble
 
-![Les couches de Linux : programmes et bibliothèques dans l’espace utilisateur, noyau et pilotes, puis matériel.](https://cours.kaya.ovh/lpi101/assets/course-media/b7d29b99d675ff4f.svg)
+![Les couches de Linux : programmes et bibliothèques dans l’espace utilisateur, noyau et pilotes, puis matériel.](https://kayasam.github.io/lpi101/assets/course-media/b7d29b99d675ff4f.svg)
 
 Le terminal affiche une session ; le **shell** interprète les commandes. Bash est un shell courant. Un pilote peut être intégré au noyau ou fourni comme module chargeable.
 

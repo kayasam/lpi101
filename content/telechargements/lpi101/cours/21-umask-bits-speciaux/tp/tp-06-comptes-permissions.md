@@ -2,7 +2,7 @@
 
 > Durée estimée : 75 min
 
-> Chapitres associés : [19. Utilisateurs, groupes et droits administrateur](https://cours.kaya.ovh/lpi101/lpi101/19-utilisateurs-groupes/), [20. Lire et modifier les permissions](https://cours.kaya.ovh/lpi101/lpi101/20-permissions/), [21. Droits par défaut et bits spéciaux](https://cours.kaya.ovh/lpi101/lpi101/21-umask-bits-speciaux/)
+> Chapitres associés : [19. Utilisateurs, groupes et droits administrateur](https://kayasam.github.io/lpi101/lpi101/19-utilisateurs-groupes/), [20. Lire et modifier les permissions](https://kayasam.github.io/lpi101/lpi101/20-permissions/), [21. Droits par défaut et bits spéciaux](https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/)
 
 ---
 

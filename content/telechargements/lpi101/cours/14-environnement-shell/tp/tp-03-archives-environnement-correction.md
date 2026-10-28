@@ -4,7 +4,7 @@
 
 > Durée estimée : 50 min
 
-> Chapitres associés : [13. Archiver et compresser](https://cours.kaya.ovh/lpi101/lpi101/13-archives-compression/), [14. Variables, environnement et historique](https://cours.kaya.ovh/lpi101/lpi101/14-environnement-shell/)
+> Chapitres associés : [13. Archiver et compresser](https://kayasam.github.io/lpi101/lpi101/13-archives-compression/), [14. Variables, environnement et historique](https://kayasam.github.io/lpi101/lpi101/14-environnement-shell/)
 
 ---
 

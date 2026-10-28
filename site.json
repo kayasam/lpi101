@@ -2,7 +2,7 @@
   "title": "Linux : initiation et préparation LPI 101",
   "shortTitle": "LPI 101",
   "description": "Découvrir Linux, comprendre son fonctionnement et pratiquer les bases de l’administration système.",
-  "baseUrl": "https://cours.kaya.ovh/lpi101",
+  "baseUrl": "https://kayasam.github.io/lpi101",
   "sourceRoot": "sources",
   "vaultRoot": "C:\\Users\\kayaw\\Nextcloud\\Obsidian\\CoffreSam\\Formations\\lpi101\\LPI-101-Obsidian",
   "tracks": [
@@ -99,7 +99,8 @@
         },
         {
           "slug": "20-permissions",
-          "course": "cours/20-permissions/20-permissions.md"
+          "course": "cours/20-permissions/20-permissions.md",
+          "tp": "cours/20-permissions/tp/tp-07-permissions.md"
         },
         {
           "slug": "21-umask-bits-speciaux",

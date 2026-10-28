@@ -2,7 +2,7 @@
 
 > Durée estimée : 45 min
 
-> Chapitres associés : [39. Se connecter à distance avec SSH](https://cours.kaya.ovh/lpi101/lpi101/39-ssh/)
+> Chapitres associés : [39. Se connecter à distance avec SSH](https://kayasam.github.io/lpi101/lpi101/39-ssh/)
 
 ---
 

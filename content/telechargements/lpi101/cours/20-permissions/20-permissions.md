@@ -64,7 +64,7 @@ rwx------  → le propriétaire a tous les droits
 rw-r--r--  → lecture/écriture pour le propriétaire, lecture seule pour les autres
 rwxr-xr-x  → fichier exécutable pour tout le monde
 ```
-![Les permissions du propriétaire, du groupe et des autres ; sens de r, w et x.](https://cours.kaya.ovh/lpi101/assets/course-media/f4eab24d64f0a786.svg)
+![Les permissions du propriétaire, du groupe et des autres ; sens de r, w et x.](https://kayasam.github.io/lpi101/assets/course-media/f4eab24d64f0a786.svg)
 
 ---
 

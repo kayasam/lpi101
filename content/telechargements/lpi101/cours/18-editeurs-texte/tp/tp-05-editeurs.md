@@ -2,7 +2,7 @@
 
 > Durée estimée : 35 min
 
-> Chapitres associés : [18. Modifier un fichier avec nano et vi](https://cours.kaya.ovh/lpi101/lpi101/18-editeurs-texte/)
+> Chapitres associés : [18. Modifier un fichier avec nano et vi](https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/)
 
 ---
 
@@ -51,4 +51,4 @@ printf 'service=demo\nport=8080\nmode=test\n' > application.conf
 **C1.** Affiche le fichier final et choisis nano comme éditeur pour cette session. Ces variables modifient-elles le fichier de configuration ?
 
 
-[Afficher les corrections](https://cours.kaya.ovh/lpi101/lpi101/18-editeurs-texte/tp-corrigev2)
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/18-editeurs-texte/tp-corrigev2)

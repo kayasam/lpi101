@@ -98,7 +98,7 @@ Exemple :
 ---
 > [!info]
 > On peut aussi passer par le Microsoft store pour installer une distribution linux
-> ![10.2 WSL — Linux sous Windows-1](https://cours.kaya.ovh/lpi101/assets/course-media/5e208c7e7b969f0e.png)
+> ![10.2 WSL — Linux sous Windows-1](https://kayasam.github.io/lpi101/assets/course-media/5e208c7e7b969f0e.png)
 
 ## Commandes de gestion
 
@@ -168,7 +168,7 @@ wsl --shutdown
 
 > [!info]
 > Il y a une interface graphique `WSL Settings`
-> ![10.2 WSL — Linux sous Windows](https://cours.kaya.ovh/lpi101/assets/course-media/02e412ac13c1f863.png)
+> ![10.2 WSL — Linux sous Windows](https://kayasam.github.io/lpi101/assets/course-media/02e412ac13c1f863.png)
 
 ---
 

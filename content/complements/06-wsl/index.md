@@ -2,8 +2,8 @@
 title: "C06. Découvrir Linux sous Windows avec WSL"
 ---
 
-<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="complements/06-wsl"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://cours.kaya.ovh/lpi101/complements/06-wsl/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
-</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://cours.kaya.ovh/lpi101/telechargements/complements/complements/c06-wsl/c06-wsl.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
+<nav class="chapter-resources" aria-label="Ressources du chapitre" data-course-key="complements/06-wsl"><div class="resource-buttons"><a class="resource-button" data-resource-kind="markdown" href="https://kayasam.github.io/lpi101/complements/06-wsl/"><span class="resource-icon"><svg class="resource-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect x="1" y="1" width="30" height="22" rx="3" fill="none" stroke="#34495e" stroke-width="2"/><path d="M5 18V6h3l4 5 4-5h3v12h-3v-7l-4 5-4-5v7Z" fill="#34495e"/><path d="M23 6h3v7h3l-4.5 5-4.5-5h3Z" fill="#34495e"/></svg>
+</span><span class="resource-label">Cours</span></a></div><div class="resource-actions"><a class="resource-download" download href="https://kayasam.github.io/lpi101/telechargements/complements/complements/c06-wsl/c06-wsl.md">↓ Télécharger le cours (.md)</a><button type="button" class="support-focus-toggle" aria-pressed="false">Masquer les menus</button></div></nav>
 
 > [!note] Objectif
 > Reconnaître les possibilités de WSL et ses différences avec la VM de formation.
@@ -103,7 +103,7 @@ Exemple :
 ---
 > [!info]
 > On peut aussi passer par le Microsoft store pour installer une distribution linux
-> ![10.2 WSL — Linux sous Windows-1](https://cours.kaya.ovh/lpi101/assets/course-media/5e208c7e7b969f0e.png)
+> ![10.2 WSL — Linux sous Windows-1](https://kayasam.github.io/lpi101/assets/course-media/5e208c7e7b969f0e.png)
 
 ## Commandes de gestion
 
@@ -173,7 +173,7 @@ wsl --shutdown
 
 > [!info]
 > Il y a une interface graphique `WSL Settings`
-> ![10.2 WSL — Linux sous Windows](https://cours.kaya.ovh/lpi101/assets/course-media/02e412ac13c1f863.png)
+> ![10.2 WSL — Linux sous Windows](https://kayasam.github.io/lpi101/assets/course-media/02e412ac13c1f863.png)
 
 ---
 

@@ -2,7 +2,7 @@
 
 > Durée estimée : 75 min
 
-> Chapitres associés : [15. Flux, redirections et tubes](https://cours.kaya.ovh/lpi101/lpi101/15-flux-redirections/), [16. Filtrer et transformer du texte](https://cours.kaya.ovh/lpi101/lpi101/16-filtres-textuels/), [17. Rechercher avec les expressions régulières](https://cours.kaya.ovh/lpi101/lpi101/17-expressions-regulieres/)
+> Chapitres associés : [15. Flux, redirections et tubes](https://kayasam.github.io/lpi101/lpi101/15-flux-redirections/), [16. Filtrer et transformer du texte](https://kayasam.github.io/lpi101/lpi101/16-filtres-textuels/), [17. Rechercher avec les expressions régulières](https://kayasam.github.io/lpi101/lpi101/17-expressions-regulieres/)
 
 ---
 

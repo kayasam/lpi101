@@ -23,7 +23,7 @@ Dans cette section, nous verrons :
 
 ---
 
-![Un shell parent et des processus enfants au premier plan ou en arrière-plan.](https://cours.kaya.ovh/lpi101/assets/course-media/ff5c6977d2387ca5.svg)
+![Un shell parent et des processus enfants au premier plan ou en arrière-plan.](https://kayasam.github.io/lpi101/assets/course-media/ff5c6977d2387ca5.svg)
 
 ## Consulter les processus
 

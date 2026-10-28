@@ -2,7 +2,7 @@
 
 > Durée estimée : 75 min
 
-> Chapitres associés : [10. Créer, copier, déplacer et supprimer](https://cours.kaya.ovh/lpi101/lpi101/10-manipuler-fichiers/), [11. Utiliser les jokers et rechercher](https://cours.kaya.ovh/lpi101/lpi101/11-jokers-et-recherche/), [12. Comprendre les liens physiques et symboliques](https://cours.kaya.ovh/lpi101/lpi101/12-liens/)
+> Chapitres associés : [10. Créer, copier, déplacer et supprimer](https://kayasam.github.io/lpi101/lpi101/10-manipuler-fichiers/), [11. Utiliser les jokers et rechercher](https://kayasam.github.io/lpi101/lpi101/11-jokers-et-recherche/), [12. Comprendre les liens physiques et symboliques](https://kayasam.github.io/lpi101/lpi101/12-liens/)
 
 ---
 
@@ -53,4 +53,4 @@ Les manipulations restent dans `~/lpi101-tp/tp02`. Les parties s’enchaînent :
 **C4.** Conserve les fichiers et fais un bilan : quelle opération utiliser pour une copie indépendante, un raccourci de dossier et un deuxième nom du même fichier ?
 
 
-[Afficher les corrections](https://cours.kaya.ovh/lpi101/lpi101/12-liens/tp-corrigev2)
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/12-liens/tp-corrigev2)
