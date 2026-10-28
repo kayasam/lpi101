@@ -136,7 +136,7 @@
       "key": "lpi101/23-priorites",
       "title": "23. Comprendre les priorités des processus",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/24-arborescence-fhs",
@@ -358,9 +358,9 @@
       "correctionKey": "lpi101/23-priorites/tp-corrigev2",
       "downloadStem": "23-priorites",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/23-priorites/tp/tp-07-processus.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/23-priorites/tp/tp-07-processus-correction.md"
     },
     {
       "key": "lpi101/29-integrite-maintenance/tp",
@@ -431,7 +431,8 @@
     "lpi101/12-liens/tp",
     "lpi101/14-environnement-shell/tp",
     "lpi101/18-editeurs-texte/tp",
-    "lpi101/20-permissions/tp"
+    "lpi101/20-permissions/tp",
+    "lpi101/23-priorites/tp"
   ],
   "tracks": [
     {

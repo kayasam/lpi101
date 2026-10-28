@@ -48,3 +48,6 @@ cd ~/lpi101-tp/tp07
 **C1.** Lance un sleep avec une niceness augmentée de 10, lis sa valeur NI puis rends-le encore moins prioritaire avec NI 15.
 
 **C2.** Lance une tâche de cinq minutes avec nohup en redirigeant son résultat, mémorise son PID puis arrête-la après vérification.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/23-priorites/tp-corrigev2)
