@@ -124,7 +124,7 @@
       "key": "lpi101/21-umask-bits-speciaux",
       "title": "21. Droits par défaut et bits spéciaux",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/22-processus",
@@ -349,9 +349,9 @@
       "correctionKey": "lpi101/21-umask-bits-speciaux/tp-corrigev2",
       "downloadStem": "21-umask-bits-speciaux",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/21-umask-bits-speciaux/tp/tp-06-comptes-permissions.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/21-umask-bits-speciaux/tp/tp-06-comptes-permissions-correction.md"
     },
     {
       "key": "lpi101/23-priorites/tp",
@@ -432,6 +432,7 @@
     "lpi101/14-environnement-shell/tp",
     "lpi101/18-editeurs-texte/tp",
     "lpi101/20-permissions/tp",
+    "lpi101/21-umask-bits-speciaux/tp",
     "lpi101/23-priorites/tp"
   ],
   "tracks": [

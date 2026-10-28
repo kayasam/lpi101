@@ -53,3 +53,6 @@ Utilise un compte autorisé à lancer sudo. Les comptes `lpi_alice`, `lpi_bob` e
 **D1.** Retrouve un exemple de programme SUID déjà présent et explique pourquoi on ne transforme pas arbitrairement un programme en SUID root.
 
 **D2.** Retire seulement les ressources de cet atelier : partage, comptes et groupe.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/21-umask-bits-speciaux/tp-corrigev2)
