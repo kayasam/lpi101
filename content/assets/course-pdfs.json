@@ -1,6 +1,6 @@
 {
   "pdf": "telechargements/cours-complets.pdf",
-  "pdfSha256": "d570bd27a8a0557ebb348f9cf3d0208c354afd484560026120d6706d652543ae",
+  "pdfSha256": "a0248c23a67ea0d4e40c0d01f6084942fb95cf69c70f3856c630587c53dd4b04",
   "chapters": [
     {
       "key": "lpi101/01-comprendre-gnu-linux",
@@ -215,7 +215,7 @@
       "title": "27. Monter un système de fichiers et utiliser fstab",
       "href": "https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/",
       "download": "telechargements/lpi101/cours/27-montage-fstab/27-montage-fstab.md",
-      "sourceSha256": "59b88e4f0529a671577bb685b2f36072aceb43d5ef248b30fec3cde80b9b5181",
+      "sourceSha256": "17afddda089461c0848a1ead9fdff0b72403cf67691b8096b2c27f950fb7be91",
       "startPage": 94
     },
     {

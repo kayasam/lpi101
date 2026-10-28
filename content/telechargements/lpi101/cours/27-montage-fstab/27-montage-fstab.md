@@ -22,7 +22,7 @@ Le répertoire `/mnt` sert ici de porte d’entrée vers les fichiers du volume 
 ## `mount` — monter un système de fichiers
 
 ```bash
-sudo mount /dev/sdb1 /mnt
+sudo mount /dev/sdb1 /mnt/disque1
 ```
 
 → `/mnt` devient le point d’accès à la partition.
@@ -38,14 +38,14 @@ mount | grep "^/dev"
 ## `umount` — démonter un système de fichiers
 
 ```bash
-sudo umount /mnt
+sudo umount /mnt/disque1
 ```
 > [!warning]
 > ⚠️ Ne pas oublier de fermer les fichiers ouverts avant de démonter.
 > Si un message indique que le périphérique est occupé :
 >
 > ```bash
-> sudo lsof +f -- /mnt
+> sudo lsof +f -- /mnt/disque1
 > ```
 
 ---
