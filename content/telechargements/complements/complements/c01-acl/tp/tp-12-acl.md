@@ -52,3 +52,6 @@ sudo chmod 600 /srv/lpi101-acl/rapport.txt
 ## Partie C — Retirer les ressources (5 min)
 
 **C1.** Supprime uniquement le dossier et le compte créés pour cet atelier.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/complements/01-acl/tp-corrigev2)

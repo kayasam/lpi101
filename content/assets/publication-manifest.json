@@ -238,7 +238,7 @@
       "key": "complements/01-acl",
       "title": "C01. Donner des droits précis avec les ACL",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "complements/02-lvm",
@@ -412,9 +412,9 @@
       "correctionKey": "complements/01-acl/tp-corrigev2",
       "downloadStem": "01-acl",
       "track": "complements",
-      "correction": false,
+      "correction": true,
       "offlineTP": "complements/c01-acl/tp/tp-12-acl.md",
-      "offlineCorrection": null
+      "offlineCorrection": "complements/c01-acl/tp/tp-12-acl-correction.md"
     },
     {
       "key": "complements/02-lvm/tp",
@@ -444,7 +444,8 @@
     "lpi101/21-umask-bits-speciaux/tp",
     "lpi101/23-priorites/tp",
     "lpi101/27-montage-fstab/tp",
-    "lpi101/32-bibliotheques/tp"
+    "lpi101/32-bibliotheques/tp",
+    "complements/01-acl/tp"
   ],
   "tracks": [
     {
