@@ -56,3 +56,6 @@
 ## Partie F — Montage permanent (5 min)
 
 **F1.** Ajoute une ligne dans `/etc/fstab` (par UUID) pour monter la partition automatiquement sur `/mnt/donnees`. Teste-la sans redémarrer, puis redémarre et vérifie.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/27-montage-fstab/tp-corrigev2)

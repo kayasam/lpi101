@@ -32,7 +32,7 @@ mkdir -p ~/lpi101-tp/tp08
 cd ~/lpi101-tp/tp08
 truncate -s 2G disque-labo.img
 DISQUE_TP=$(sudo losetup --find --show --nooverlap --partscan disque-labo.img)
-printf '%s\n' "$DISQUE_TP" > disque-actuel.txt
+echo "$DISQUE_TP" > disque-actuel.txt
 sudo losetup "$DISQUE_TP"
 ```
 

@@ -160,7 +160,7 @@
       "key": "lpi101/27-montage-fstab",
       "title": "27. Monter un système de fichiers et utiliser fstab",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/28-espace-disque-inodes",
@@ -367,9 +367,9 @@
       "correctionKey": "lpi101/27-montage-fstab/tp-corrigev2",
       "downloadStem": "27-montage-fstab",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/27-montage-fstab/tp/tp-08a-disque-nvme.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/27-montage-fstab/tp/tp-08a-disque-nvme-correction.md"
     },
     {
       "key": "lpi101/29-integrite-maintenance/tp",
@@ -442,7 +442,8 @@
     "lpi101/18-editeurs-texte/tp",
     "lpi101/20-permissions/tp",
     "lpi101/21-umask-bits-speciaux/tp",
-    "lpi101/23-priorites/tp"
+    "lpi101/23-priorites/tp",
+    "lpi101/27-montage-fstab/tp"
   ],
   "tracks": [
     {
