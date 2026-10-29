@@ -190,7 +190,7 @@
       "key": "lpi101/32-bibliotheques",
       "title": "32. Comprendre les bibliothèques partagées",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/33-materiel-modules",
@@ -385,9 +385,9 @@
       "correctionKey": "lpi101/32-bibliotheques/tp-corrigev2",
       "downloadStem": "32-bibliotheques",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/32-bibliotheques/tp/tp-09-paquets-bibliotheques.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/32-bibliotheques/tp/tp-09-paquets-bibliotheques-correction.md"
     },
     {
       "key": "lpi101/38-grub-recuperation/tp",
@@ -443,7 +443,8 @@
     "lpi101/20-permissions/tp",
     "lpi101/21-umask-bits-speciaux/tp",
     "lpi101/23-priorites/tp",
-    "lpi101/27-montage-fstab/tp"
+    "lpi101/27-montage-fstab/tp",
+    "lpi101/32-bibliotheques/tp"
   ],
   "tracks": [
     {

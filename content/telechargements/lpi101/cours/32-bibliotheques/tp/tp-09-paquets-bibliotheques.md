@@ -41,3 +41,6 @@ Une connexion Internet et les dépôts Debian configurés sont nécessaires. Le 
 **C1.** Retire le paquet hello, vérifie son absence puis demande sa purge. Distingue remove et purge.
 
 **C2.** Sur une distribution RPM, quelles commandes serviraient à installer hello et à retrouver le paquet d’un fichier ? Ne les lance pas sur Debian.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/tp-corrigev2)
