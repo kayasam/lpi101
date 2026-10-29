@@ -134,8 +134,8 @@
         {
           "slug": "27-montage-fstab",
           "course": "cours/27-montage-fstab/27-montage-fstab.md",
-          "tp": "cours/27-montage-fstab/tp/tp-08-stockage.md",
-          "correction": "cours/27-montage-fstab/tp/tp-08-stockage-correction.md"
+          "tp": "cours/27-montage-fstab/tp/tp-08a-disque-nvme.md",
+          "correction": "cours/27-montage-fstab/tp/tp-08a-disque-nvme-correction.md"
         },
         {
           "slug": "28-espace-disque-inodes",
@@ -143,7 +143,9 @@
         },
         {
           "slug": "29-integrite-maintenance",
-          "course": "cours/29-integrite-maintenance/29-integrite-maintenance.md"
+          "course": "cours/29-integrite-maintenance/29-integrite-maintenance.md",
+          "tp": "cours/29-integrite-maintenance/tp/tp-08-stockage.md",
+          "correction": "cours/29-integrite-maintenance/tp/tp-08-stockage-correction.md"
         },
         {
           "slug": "30-paquets-debian",

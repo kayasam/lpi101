@@ -171,7 +171,7 @@
     {
       "key": "lpi101/29-integrite-maintenance",
       "title": "29. Vérifier et entretenir les systèmes de fichiers",
-      "tp": false,
+      "tp": true,
       "correction": false
     },
     {
@@ -368,7 +368,16 @@
       "downloadStem": "27-montage-fstab",
       "track": "lpi101",
       "correction": false,
-      "offlineTP": "cours/27-montage-fstab/tp/tp-08-stockage.md",
+      "offlineTP": "cours/27-montage-fstab/tp/tp-08a-disque-nvme.md",
+      "offlineCorrection": null
+    },
+    {
+      "key": "lpi101/29-integrite-maintenance/tp",
+      "correctionKey": "lpi101/29-integrite-maintenance/tp-corrigev2",
+      "downloadStem": "29-integrite-maintenance",
+      "track": "lpi101",
+      "correction": false,
+      "offlineTP": "cours/29-integrite-maintenance/tp/tp-08-stockage.md",
       "offlineCorrection": null
     },
     {

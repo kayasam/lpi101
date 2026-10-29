@@ -1,4 +1,4 @@
-# TP 08. Ajouter un disque NVMe et le monter
+# TP 08a. Ajouter un disque NVMe et le monter
 
 > Durée estimée : 40 min
 
