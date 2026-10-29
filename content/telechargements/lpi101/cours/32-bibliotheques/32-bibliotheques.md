@@ -28,10 +28,27 @@ Deux types principaux existent :
 
 |Répertoire|Rôle|
 |---|---|
-|`/lib`, `/lib64`|Bibliothèques essentielles au démarrage du système|
-|`/usr/lib`, `/usr/lib64`|Bibliothèques pour les programmes standards|
+|`/usr/lib`, `/usr/lib64`|Bibliothèques du système et des programmes installés par les paquets|
+|`/usr/lib/x86_64-linux-gnu`|Sur Debian/Ubuntu : bibliothèques rangées par architecture|
+|`/lib`, `/lib64`|Historiquement : bibliothèques essentielles au démarrage. Aujourd’hui : liens vers `/usr/lib` et `/usr/lib64`|
 |`/usr/local/lib`|Bibliothèques installées manuellement|
 |`/opt/.../lib`|Bibliothèques spécifiques à un logiciel tiers|
+
+> [!info] Fusion de /usr (*usrmerge*)
+> Autrefois, `/usr` pouvait être sur une partition séparée montée tardivement : `/lib` gardait sur la racine le minimum nécessaire au démarrage. Aujourd’hui, `/usr` est monté dès le début du démarrage. Les distributions récentes (Debian 12+, Ubuntu, Fedora, RHEL…) ont donc tout regroupé dans `/usr` et remplacé `/lib`, `/lib64`, `/bin` et `/sbin` par des liens symboliques :
+>
+> ```bash
+> ls -l / | grep -- '->'
+> ```
+>
+> ```text
+> lrwxrwxrwx 1 root root  7 … bin -> usr/bin
+> lrwxrwxrwx 1 root root  7 … lib -> usr/lib
+> lrwxrwxrwx 1 root root  9 … lib64 -> usr/lib64
+> lrwxrwxrwx 1 root root  8 … sbin -> usr/sbin
+> ```
+>
+> Pour l’examen LPI, connaître les deux emplacements : `/lib` et `/usr/lib` restent cités dans les objectifs.
 
 ---
 

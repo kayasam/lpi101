@@ -1,6 +1,6 @@
 {
   "pdf": "telechargements/cours-complets.pdf",
-  "pdfSha256": "a0248c23a67ea0d4e40c0d01f6084942fb95cf69c70f3856c630587c53dd4b04",
+  "pdfSha256": "600e1cae6f8245ca3a44f0aea898e6d6aa1829110e218d6ef274fd7079dca590",
   "chapters": [
     {
       "key": "lpi101/01-comprendre-gnu-linux",
@@ -255,7 +255,7 @@
       "title": "32. Comprendre les bibliothèques partagées",
       "href": "https://kayasam.github.io/lpi101/lpi101/32-bibliotheques/",
       "download": "telechargements/lpi101/cours/32-bibliotheques/32-bibliotheques.md",
-      "sourceSha256": "4924971f6110a80b33943c720c92ef6cf0dae9c09cf7c4a2331020e6a3d521af",
+      "sourceSha256": "c33d74ad13d3a3b6d92ab785bf2fe5b3cd9f1f6e9bad41a98669217f07062d2e",
       "startPage": 111
     },
     {
