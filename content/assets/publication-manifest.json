@@ -226,7 +226,7 @@
       "key": "lpi101/38-grub-recuperation",
       "title": "38. Comprendre GRUB et la récupération",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "lpi101/39-ssh",
@@ -394,9 +394,9 @@
       "correctionKey": "lpi101/38-grub-recuperation/tp-corrigev2",
       "downloadStem": "38-grub-recuperation",
       "track": "lpi101",
-      "correction": false,
+      "correction": true,
       "offlineTP": "cours/38-grub-recuperation/tp/tp-10-machine-services-journaux.md",
-      "offlineCorrection": null
+      "offlineCorrection": "cours/38-grub-recuperation/tp/tp-10-machine-services-journaux-correction.md"
     },
     {
       "key": "lpi101/39-ssh/tp",
@@ -445,6 +445,7 @@
     "lpi101/23-priorites/tp",
     "lpi101/27-montage-fstab/tp",
     "lpi101/32-bibliotheques/tp",
+    "lpi101/38-grub-recuperation/tp",
     "complements/01-acl/tp"
   ],
   "tracks": [

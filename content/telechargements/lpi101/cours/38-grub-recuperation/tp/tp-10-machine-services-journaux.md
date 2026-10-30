@@ -107,3 +107,6 @@ WantedBy=timers.target
 ## Partie E — Nettoyer (10 min)
 
 **E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer, retire seulement les quatre fichiers d’unité créés pour ce TP, puis recharge la configuration de systemd.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/tp-corrigev2)
