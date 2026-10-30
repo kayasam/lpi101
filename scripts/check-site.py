@@ -4,6 +4,14 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 import hashlib, json, re, shutil, zipfile, posixpath, sys
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'.pdf-tools'))
+import markdown
+
+def has_top_heading(text):
+    body=re.sub(r'^---\s*\n.*?\n---\s*\n','',text,count=1,flags=re.S)
+    rendered=markdown.markdown(body,extensions=['fenced_code'])
+    return bool(re.search(r'<h1(?:\s|>)',rendered))
+
 site=json.loads((ROOT/'site.json').read_text(encoding='utf-8')); base=site['baseUrl'].rstrip('/'); configured=urlsplit(base)
 content=ROOT/'content'; public=ROOT/'public'
 for source in content.rglob('*'):
@@ -35,7 +43,7 @@ for entry in manifest['exercises']:
     page=(content/(entry['key']+'.md')).read_text(encoding='utf-8')
     assert ('Afficher les corrections</a>' in page)==entry['correction'],entry['key']
     assert '/tp/' in re.search(r'class="resource-download"[^>]*href="([^"]+)"',page)[1]
-    assert not re.search(r'^# ',page,re.M)
+    assert not has_top_heading(page), f"{entry['key']} : titre Markdown de niveau 1 dans le corps du TP"
     correction=content/(entry['correctionKey']+'.md')
     assert correction.exists()==entry['correction'],entry['key']
     if correction.exists():

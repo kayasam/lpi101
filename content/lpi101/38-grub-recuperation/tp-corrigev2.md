@@ -9,7 +9,7 @@ title: "TP 10. Observer la machine et dépanner un service — Correction"
 
 > Essaie chaque question avant d’ouvrir **Afficher la correction**. Chaque réponse se replie indépendamment.
 
-> Durée estimée : 80 min
+> Durée estimée : 85 min
 
 > Chapitres associés : [33. Identifier le matériel et les modules du noyau](https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/), [34. Observer les événements matériels](https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/), [35. Démarrage, arrêt et cibles systemd](https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/), [36. Gérer les services avec systemd](https://kayasam.github.io/lpi101/lpi101/36-services/), [37. Consulter les journaux et diagnostiquer](https://kayasam.github.io/lpi101/lpi101/37-journaux/), [38. Comprendre GRUB et la récupération](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/)
 
@@ -20,7 +20,7 @@ title: "TP 10. Observer la machine et dépanner un service — Correction"
 - Observer ressources et messages du démarrage.
 - Distinguer service actif et service activé.
 - Utiliser les journaux pour expliquer une panne simple.
-- Planifier une tâche avec un timer systemd.
+- Automatiser une sauvegarde avec un timer systemd.
 
 ## Avant de commencer
 
@@ -173,25 +173,59 @@ ExecStart=/usr/bin/false
 
 ---
 
-## Partie D — Planifier une tâche avec un timer (15 min)
+## Partie D — Automatiser une sauvegarde avec un timer (20 min)
 
-**D1.** Crée le service `/etc/systemd/system/lpi101-horodatage.service` puis le timer `/etc/systemd/system/lpi101-horodatage.timer` avec les modèles ci-dessous, et recharge la configuration de systemd. Pourquoi le service n’a-t-il pas de section `[Install]` ? Que signifie `%%` ?
+**D1.** Crée le script `/usr/local/bin/lpi101-sauvegarde.sh` avec le modèle ci-dessous, rends-le exécutable puis lance-le une fois à la main. Que fait-il, et où se trouve le résultat ?
+
+```bash
+#!/bin/sh
+# Sauvegarde compressée de /etc, conserve les 5 archives les plus récentes
+set -e
+dest=/var/backups/lpi101
+mkdir -p "$dest"
+archive="$dest/etc-$(date +%Y%m%d-%H%M%S).tar.gz"
+tar -czf "$archive" -C / etc
+ls -1t "$dest"/etc-*.tar.gz | tail -n +6 | xargs -r rm --
+echo "Sauvegarde creee : $archive ($(du -h "$archive" | cut -f1))"
+```
+
+> [!success]- Afficher la correction — D1
+> ```bash
+> sudo tee /usr/local/bin/lpi101-sauvegarde.sh > /dev/null <<'EOF'
+> #!/bin/sh
+> # Sauvegarde compressée de /etc, conserve les 5 archives les plus récentes
+> set -e
+> dest=/var/backups/lpi101
+> mkdir -p "$dest"
+> archive="$dest/etc-$(date +%Y%m%d-%H%M%S).tar.gz"
+> tar -czf "$archive" -C / etc
+> ls -1t "$dest"/etc-*.tar.gz | tail -n +6 | xargs -r rm --
+> echo "Sauvegarde creee : $archive ($(du -h "$archive" | cut -f1))"
+> EOF
+> sudo chmod 755 /usr/local/bin/lpi101-sauvegarde.sh
+> sudo /usr/local/bin/lpi101-sauvegarde.sh
+> sudo ls -lh /var/backups/lpi101/
+> ```
+>
+> Le script archive et compresse `/etc` dans `/var/backups/lpi101/`, avec la date et l’heure dans le nom du fichier (environ 1 Mo sur une Debian 13). Il ne garde que les 5 archives les plus récentes : `ls -1t` trie de la plus récente à la plus ancienne et `tail -n +6` sélectionne les suivantes, que l’on supprime. `set -e` arrête le script à la première erreur. On le teste à la main avant de l’automatiser.
+
+**D2.** Crée le service `/etc/systemd/system/lpi101-sauvegarde.service` et le timer `/etc/systemd/system/lpi101-sauvegarde.timer` avec les modèles ci-dessous, puis recharge la configuration de systemd. Comment le timer sait-il quel service lancer ? Pourquoi le service n’a-t-il pas de section `[Install]` ? Que signifie `*:0/2` ?
 
 ```ini
 [Unit]
-Description=Horodatage periodique du TP LPI101
+Description=Sauvegarde de /etc du TP LPI101
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/date "+TP-LPI101-timer %%H:%%M:%%S"
+ExecStart=/usr/local/bin/lpi101-sauvegarde.sh
 ```
 
 ```ini
 [Unit]
-Description=Declenche lpi101-horodatage toutes les minutes
+Description=Sauvegarde de /etc toutes les 2 minutes
 
 [Timer]
-OnCalendar=*-*-* *:*:00
+OnCalendar=*:0/2
 AccuracySec=1s
 Persistent=true
 
@@ -199,74 +233,81 @@ Persistent=true
 WantedBy=timers.target
 ```
 
-> [!success]- Afficher la correction — D1
+> [!success]- Afficher la correction — D2
 > ```bash
-> sudo tee /etc/systemd/system/lpi101-horodatage.service > /dev/null <<'EOF'
+> sudo tee /etc/systemd/system/lpi101-sauvegarde.service > /dev/null <<'EOF'
 > [Unit]
-> Description=Horodatage periodique du TP LPI101
+> Description=Sauvegarde de /etc du TP LPI101
 >
 > [Service]
 > Type=oneshot
-> ExecStart=/usr/bin/date "+TP-LPI101-timer %%H:%%M:%%S"
+> ExecStart=/usr/local/bin/lpi101-sauvegarde.sh
 > EOF
-> sudo tee /etc/systemd/system/lpi101-horodatage.timer > /dev/null <<'EOF'
+> sudo tee /etc/systemd/system/lpi101-sauvegarde.timer > /dev/null <<'EOF'
 > [Unit]
-> Description=Declenche lpi101-horodatage toutes les minutes
+> Description=Sauvegarde de /etc toutes les 2 minutes
 >
 > [Timer]
-> OnCalendar=*-*-* *:*:00
+> OnCalendar=*:0/2
 > AccuracySec=1s
 > Persistent=true
 >
 > [Install]
 > WantedBy=timers.target
 > EOF
-> sudo systemd-analyze verify /etc/systemd/system/lpi101-horodatage.timer
-> systemd-analyze calendar '*-*-* *:*:00' --iterations=3
+> sudo systemd-analyze verify /etc/systemd/system/lpi101-sauvegarde.timer
+> systemd-analyze calendar '*:0/2' --iterations=3
 > sudo systemctl daemon-reload
 > ```
 >
-> Le timer porte le même nom que le service : il active `lpi101-horodatage.service` par défaut (sinon, directive `Unit=`). Le service n’a pas de `[Install]` car ce n’est pas lui qu’on active au démarrage, mais le timer, rattaché à `timers.target`. Dans une unité, `%` introduit un spécificateur systemd ; `%%` produit un `%` littéral pour `date`. `OnCalendar` fixe l’échéance (ici chaque minute à la seconde 00), `AccuracySec=1s` évite le regroupement par défaut d’une minute et `Persistent=true` rattrape une échéance manquée pendant que la machine était éteinte.
+> Le timer porte le même nom que le service : il active `lpi101-sauvegarde.service` par défaut (sinon, directive `Unit=`). Le service n’a pas de `[Install]` car ce n’est pas lui qu’on active au démarrage, mais le timer, rattaché à `timers.target`. `*:0/2` signifie « chaque heure, à partir de la minute 0 puis toutes les 2 minutes » ; `systemd-analyze calendar` affiche la forme complète `*-*-* *:00/2:00` et les prochaines échéances. En production, on écrirait plutôt `OnCalendar=daily` ou `OnCalendar=*-*-* 02:00:00`. `AccuracySec=1s` évite le décalage d’une minute que systemd s’autorise par défaut, et `Persistent=true` rattrape une échéance manquée pendant que la machine était éteinte.
 
-**D2.** Active et démarre le timer en une seule commande, puis affiche sa prochaine échéance. Compare l’état d’activation du timer et celui du service.
-
-> [!success]- Afficher la correction — D2
-> ```bash
-> sudo systemctl enable --now lpi101-horodatage.timer
-> systemctl list-timers lpi101-horodatage.timer --no-pager
-> systemctl is-active lpi101-horodatage.timer
-> systemctl is-enabled lpi101-horodatage.timer lpi101-horodatage.service
-> ```
->
-> `list-timers` affiche les colonnes NEXT, LEFT, LAST et PASSED, ainsi que l’unité activée. Le timer est `enabled` ; le service est `static` : sans section `[Install]`, il ne peut pas être activé directement, il est déclenché par une autre unité.
-
-**D3.** Attends au moins une minute, puis retrouve les déclenchements dans les journaux du service. Lance aussi le service une fois à la main : le timer est-il indispensable pour l’exécuter ?
+**D3.** Active et démarre le timer en une seule commande, puis affiche sa prochaine échéance. Compare l’état d’activation du timer et celui du service.
 
 > [!success]- Afficher la correction — D3
 > ```bash
-> sudo systemctl start lpi101-horodatage.service
-> sudo journalctl --sync
-> sudo journalctl -u lpi101-horodatage.service --no-pager -n 10
-> systemctl list-timers lpi101-horodatage.timer --no-pager
+> sudo systemctl enable --now lpi101-sauvegarde.timer
+> systemctl list-timers lpi101-sauvegarde.timer --no-pager
+> systemctl is-active lpi101-sauvegarde.timer
+> systemctl is-enabled lpi101-sauvegarde.timer lpi101-sauvegarde.service
 > ```
 >
-> Chaque exécution laisse une ligne `TP-LPI101-timer HH:MM:SS` entre « Starting » et « Finished » ; les déclenchements du timer tombent à la seconde 00, l’exécution manuelle à l’heure du lancement. Les colonnes LAST et PASSED sont maintenant renseignées. Le service reste une unité ordinaire : le timer ne fait que décider quand le démarrer. Par rapport à cron, la sortie est journalisée et l’état se consulte avec `systemctl`.
+> `list-timers` affiche la prochaine échéance (NEXT, LEFT), la dernière (LAST, PASSED) et le service déclenché (ACTIVATES). Le timer est `enabled` ; le service est `static` : sans section `[Install]`, il ne peut pas être activé directement, il est déclenché par une autre unité.
+
+**D4.** Attends au moins une échéance, puis vérifie que de nouvelles archives apparaissent et retrouve les messages de la sauvegarde dans les journaux. Restaure ensuite le seul fichier `etc/hostname` de la dernière archive dans `/tmp/restau`, sans toucher au vrai `/etc`.
+
+> [!success]- Afficher la correction — D4
+> ```bash
+> sudo ls -lh /var/backups/lpi101/
+> sudo journalctl --sync
+> sudo journalctl -u lpi101-sauvegarde.service --no-pager -n 12
+> systemctl list-timers lpi101-sauvegarde.timer --no-pager
+> derniere=$(sudo ls -1t /var/backups/lpi101/etc-*.tar.gz | head -n 1)
+> sudo tar -tzf "$derniere" | head -n 5
+> mkdir -p /tmp/restau
+> sudo tar -xzf "$derniere" -C /tmp/restau etc/hostname
+> cat /tmp/restau/etc/hostname
+> ```
+>
+> Une nouvelle archive apparaît à chaque échéance paire (12:02, 12:04…). Le journal contient, pour chaque exécution, la ligne `Sauvegarde creee : …` écrite par le script, encadrée par « Starting » et « Finished ». L’exécution manuelle de D1 n’y figure pas : le script a été lancé directement, hors de systemd. La sortie standard d’un service est envoyée au journal, ce que cron ne fait pas par défaut. Les noms dans l’archive commencent par `etc/` (sans `/`) grâce à `-C /` : la restauration dans `/tmp/restau` n’écrase donc rien dans le vrai `/etc`.
 
 ---
 
 ## Partie E — Nettoyer (10 min)
 
-**E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer, retire seulement les quatre fichiers d’unité créés pour ce TP, puis recharge la configuration de systemd.
+**E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer. Retire seulement les quatre fichiers d’unité, le script, les archives et le dossier de restauration créés pour ce TP, puis recharge la configuration de systemd.
 
 > [!success]- Afficher la correction — E1
 > ```bash
-> sudo systemctl disable --now lpi101-demo.service lpi101-horodatage.timer
+> sudo systemctl disable --now lpi101-demo.service lpi101-sauvegarde.timer
 > sudo systemctl reset-failed lpi101-echec.service
-> sudo systemctl clean --what=state lpi101-horodatage.timer
+> sudo systemctl clean --what=state lpi101-sauvegarde.timer
 > sudo rm /etc/systemd/system/lpi101-demo.service /etc/systemd/system/lpi101-echec.service
-> sudo rm /etc/systemd/system/lpi101-horodatage.timer /etc/systemd/system/lpi101-horodatage.service
+> sudo rm /etc/systemd/system/lpi101-sauvegarde.timer /etc/systemd/system/lpi101-sauvegarde.service
+> sudo rm /usr/local/bin/lpi101-sauvegarde.sh
+> sudo rm -r /var/backups/lpi101 /tmp/restau
 > sudo systemctl daemon-reload
 > systemctl list-timers --all --no-pager | grep lpi101
 > ```
 >
-> On arrête le timer, pas seulement le service : sinon il relancerait le service à la minute suivante. `systemctl clean --what=state` efface la date du dernier déclenchement mémorisée par `Persistent=true` dans `/var/lib/systemd/timers/`, qui survivrait sinon au retrait de l’unité. Le dernier `grep` ne doit rien afficher. Les journaux historiques peuvent rester après retrait de l’unité. On ne supprime ni les journaux système ni d’autres services.
+> On arrête le timer, pas seulement le service : sinon il relancerait la sauvegarde à l’échéance suivante. `systemctl clean --what=state` efface la date du dernier déclenchement mémorisée par `Persistent=true` dans `/var/lib/systemd/timers/`, qui survivrait sinon au retrait de l’unité. Le dernier `grep` ne doit rien afficher. Les journaux historiques peuvent rester après retrait de l’unité. On ne supprime ni les journaux système ni d’autres services.

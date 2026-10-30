@@ -244,7 +244,7 @@
       "key": "complements/02-lvm",
       "title": "C02. Comprendre et manipuler LVM",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "complements/03-premiers-scripts",
@@ -262,7 +262,7 @@
       "key": "complements/05-scripts-utilitaires",
       "title": "C05. Lire des scripts utilitaires",
       "tp": true,
-      "correction": false
+      "correction": true
     },
     {
       "key": "complements/06-wsl",
@@ -421,18 +421,18 @@
       "correctionKey": "complements/02-lvm/tp-corrigev2",
       "downloadStem": "02-lvm",
       "track": "complements",
-      "correction": false,
+      "correction": true,
       "offlineTP": "complements/c02-lvm/tp/tp-13-lvm.md",
-      "offlineCorrection": null
+      "offlineCorrection": "complements/c02-lvm/tp/tp-13-lvm-correction.md"
     },
     {
       "key": "complements/05-scripts-utilitaires/tp",
       "correctionKey": "complements/05-scripts-utilitaires/tp-corrigev2",
       "downloadStem": "05-scripts-utilitaires",
       "track": "complements",
-      "correction": false,
+      "correction": true,
       "offlineTP": "complements/c05-scripts-utilitaires/tp/tp-14-scripts.md",
-      "offlineCorrection": null
+      "offlineCorrection": "complements/c05-scripts-utilitaires/tp/tp-14-scripts-correction.md"
     }
   ],
   "corrections": [
@@ -446,7 +446,9 @@
     "lpi101/27-montage-fstab/tp",
     "lpi101/32-bibliotheques/tp",
     "lpi101/38-grub-recuperation/tp",
-    "complements/01-acl/tp"
+    "complements/01-acl/tp",
+    "complements/02-lvm/tp",
+    "complements/05-scripts-utilitaires/tp"
   ],
   "tracks": [
     {

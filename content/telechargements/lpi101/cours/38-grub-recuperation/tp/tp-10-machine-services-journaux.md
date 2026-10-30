@@ -1,6 +1,6 @@
 # TP 10. Observer la machine et dépanner un service
 
-> Durée estimée : 80 min
+> Durée estimée : 85 min
 
 > Chapitres associés : [33. Identifier le matériel et les modules du noyau](https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/), [34. Observer les événements matériels](https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/), [35. Démarrage, arrêt et cibles systemd](https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/), [36. Gérer les services avec systemd](https://kayasam.github.io/lpi101/lpi101/36-services/), [37. Consulter les journaux et diagnostiquer](https://kayasam.github.io/lpi101/lpi101/37-journaux/), [38. Comprendre GRUB et la récupération](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/)
 
@@ -11,7 +11,7 @@
 - Observer ressources et messages du démarrage.
 - Distinguer service actif et service activé.
 - Utiliser les journaux pour expliquer une panne simple.
-- Planifier une tâche avec un timer systemd.
+- Automatiser une sauvegarde avec un timer systemd.
 
 ## Avant de commencer
 
@@ -72,25 +72,39 @@ ExecStart=/usr/bin/false
 
 ---
 
-## Partie D — Planifier une tâche avec un timer (15 min)
+## Partie D — Automatiser une sauvegarde avec un timer (20 min)
 
-**D1.** Crée le service `/etc/systemd/system/lpi101-horodatage.service` puis le timer `/etc/systemd/system/lpi101-horodatage.timer` avec les modèles ci-dessous, et recharge la configuration de systemd. Pourquoi le service n’a-t-il pas de section `[Install]` ? Que signifie `%%` ?
+**D1.** Crée le script `/usr/local/bin/lpi101-sauvegarde.sh` avec le modèle ci-dessous, rends-le exécutable puis lance-le une fois à la main. Que fait-il, et où se trouve le résultat ?
+
+```bash
+#!/bin/sh
+# Sauvegarde compressée de /etc, conserve les 5 archives les plus récentes
+set -e
+dest=/var/backups/lpi101
+mkdir -p "$dest"
+archive="$dest/etc-$(date +%Y%m%d-%H%M%S).tar.gz"
+tar -czf "$archive" -C / etc
+ls -1t "$dest"/etc-*.tar.gz | tail -n +6 | xargs -r rm --
+echo "Sauvegarde creee : $archive ($(du -h "$archive" | cut -f1))"
+```
+
+**D2.** Crée le service `/etc/systemd/system/lpi101-sauvegarde.service` et le timer `/etc/systemd/system/lpi101-sauvegarde.timer` avec les modèles ci-dessous, puis recharge la configuration de systemd. Comment le timer sait-il quel service lancer ? Pourquoi le service n’a-t-il pas de section `[Install]` ? Que signifie `*:0/2` ?
 
 ```ini
 [Unit]
-Description=Horodatage periodique du TP LPI101
+Description=Sauvegarde de /etc du TP LPI101
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/date "+TP-LPI101-timer %%H:%%M:%%S"
+ExecStart=/usr/local/bin/lpi101-sauvegarde.sh
 ```
 
 ```ini
 [Unit]
-Description=Declenche lpi101-horodatage toutes les minutes
+Description=Sauvegarde de /etc toutes les 2 minutes
 
 [Timer]
-OnCalendar=*-*-* *:*:00
+OnCalendar=*:0/2
 AccuracySec=1s
 Persistent=true
 
@@ -98,15 +112,15 @@ Persistent=true
 WantedBy=timers.target
 ```
 
-**D2.** Active et démarre le timer en une seule commande, puis affiche sa prochaine échéance. Compare l’état d’activation du timer et celui du service.
+**D3.** Active et démarre le timer en une seule commande, puis affiche sa prochaine échéance. Compare l’état d’activation du timer et celui du service.
 
-**D3.** Attends au moins une minute, puis retrouve les déclenchements dans les journaux du service. Lance aussi le service une fois à la main : le timer est-il indispensable pour l’exécuter ?
+**D4.** Attends au moins une échéance, puis vérifie que de nouvelles archives apparaissent et retrouve les messages de la sauvegarde dans les journaux. Restaure ensuite le seul fichier `etc/hostname` de la dernière archive dans `/tmp/restau`, sans toucher au vrai `/etc`.
 
 ---
 
 ## Partie E — Nettoyer (10 min)
 
-**E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer, retire seulement les quatre fichiers d’unité créés pour ce TP, puis recharge la configuration de systemd.
+**E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer. Retire seulement les quatre fichiers d’unité, le script, les archives et le dossier de restauration créés pour ce TP, puis recharge la configuration de systemd.
 
 
 [Afficher les corrections](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/tp-corrigev2)

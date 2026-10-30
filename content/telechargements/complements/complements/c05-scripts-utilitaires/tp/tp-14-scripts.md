@@ -47,3 +47,6 @@ cd ~/lpi101-tp/tp14
 ## Partie C — Conserver une preuve (10 min)
 
 **C1.** Archive les deux scripts dans `scripts.tar.gz`. N’affiche `Archive créée` que si tar a réussi, puis liste le contenu.
+
+
+[Afficher les corrections](https://kayasam.github.io/lpi101/complements/05-scripts-utilitaires/tp-corrigev2)
