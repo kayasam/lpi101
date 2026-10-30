@@ -1,6 +1,6 @@
 # TP 10. Observer la machine et dépanner un service
 
-> Durée estimée : 70 min
+> Durée estimée : 80 min
 
 > Chapitres associés : [33. Identifier le matériel et les modules du noyau](https://kayasam.github.io/lpi101/lpi101/33-materiel-modules/), [34. Observer les événements matériels](https://kayasam.github.io/lpi101/lpi101/34-evenements-materiels/), [35. Démarrage, arrêt et cibles systemd](https://kayasam.github.io/lpi101/lpi101/35-demarrage-arret/), [36. Gérer les services avec systemd](https://kayasam.github.io/lpi101/lpi101/36-services/), [37. Consulter les journaux et diagnostiquer](https://kayasam.github.io/lpi101/lpi101/37-journaux/), [38. Comprendre GRUB et la récupération](https://kayasam.github.io/lpi101/lpi101/38-grub-recuperation/)
 
@@ -11,6 +11,7 @@
 - Observer ressources et messages du démarrage.
 - Distinguer service actif et service activé.
 - Utiliser les journaux pour expliquer une panne simple.
+- Planifier une tâche avec un timer systemd.
 
 ## Avant de commencer
 
@@ -71,6 +72,38 @@ ExecStart=/usr/bin/false
 
 ---
 
-## Partie D — Nettoyer (15 min)
+## Partie D — Planifier une tâche avec un timer (15 min)
 
-**D1.** Désactive et arrête le service de démonstration. Efface l’état d’échec de l’unité volontairement défaillante, retire seulement les deux fichiers d’unité créés pour ce TP, puis recharge la configuration de systemd.
+**D1.** Crée le service `/etc/systemd/system/lpi101-horodatage.service` puis le timer `/etc/systemd/system/lpi101-horodatage.timer` avec les modèles ci-dessous, et recharge la configuration de systemd. Pourquoi le service n’a-t-il pas de section `[Install]` ? Que signifie `%%` ?
+
+```ini
+[Unit]
+Description=Horodatage periodique du TP LPI101
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/date "+TP-LPI101-timer %%H:%%M:%%S"
+```
+
+```ini
+[Unit]
+Description=Declenche lpi101-horodatage toutes les minutes
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+```
+
+**D2.** Active et démarre le timer en une seule commande, puis affiche sa prochaine échéance. Compare l’état d’activation du timer et celui du service.
+
+**D3.** Attends au moins une minute, puis retrouve les déclenchements dans les journaux du service. Lance aussi le service une fois à la main : le timer est-il indispensable pour l’exécuter ?
+
+---
+
+## Partie E — Nettoyer (10 min)
+
+**E1.** Désactive et arrête le service de démonstration ainsi que le timer. Efface l’état d’échec de l’unité volontairement défaillante et l’état mémorisé du timer, retire seulement les quatre fichiers d’unité créés pour ce TP, puis recharge la configuration de systemd.
